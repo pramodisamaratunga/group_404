@@ -1,0 +1,1910 @@
+[
+    {
+        "commit hash": "34b4f6686a38393e6cf288e2540b3ac59bfef97a",
+        "commit message": "Update min sdk to 21."
+    },
+    {
+        "commit hash": "43e9dc4d0118e6c0e41d274a19631f698b326fa6",
+        "commit message": "Update gradle, migrate to android X, update all dependencies."
+    },
+    {
+        "commit hash": "c1b75fa20e2d9c6daddae837e521e223969120e2",
+        "commit message": "fetching 2 quotes within the flow"
+    },
+    {
+        "commit hash": "f3575373112825cc387898494d2dd16f8fe6a179",
+        "commit message": "added star wars example with flow and redux"
+    },
+    {
+        "commit hash": "ec6ad61c145008bd8c4d9e9130db057cc43c1202",
+        "commit message": "fetch star wars quotes using retrofit and display on button click"
+    },
+    {
+        "commit hash": "b500fd9941503b537241d858af91f46207da13f5",
+        "commit message": "Exploring suspend callable and adding throwables in the mix!"
+    },
+    {
+        "commit hash": "5e6864b7e8afc71ddc44a6813cd8928467b29673",
+        "commit message": "Prepare for interview 2"
+    },
+    {
+        "commit hash": "2cbf4191bd000c4838774b8f9eb514f107b10b9c",
+        "commit message": "All your base are belong to us"
+    },
+    {
+        "commit hash": "7d0f12c1dd12c43b5683ff6d7796a477064d85d1",
+        "commit message": "Only update search query displayed text if cleared by the user"
+    },
+    {
+        "commit hash": "44cf8062691ef59d10cbe58f9e37a813a5b99fca",
+        "commit message": "Update gradle to 5.6.2\nEnable useAndroidX and enableJetifier in gradle.properties"
+    },
+    {
+        "commit hash": "9be7cc991bce5befc0c6c7b597da49d4f566e15e",
+        "commit message": "Add first test for suspend function"
+    },
+    {
+        "commit hash": "c646b7434e4ff87e8d8bb2b76b41814db9e7b5ca",
+        "commit message": "Concatenate 2 parallel coroutines results"
+    },
+    {
+        "commit hash": "1b7b093328e7c90b857fed5caad22708c895ac1a",
+        "commit message": "Merge view model scoped disposable into a CompositDisposable"
+    },
+    {
+        "commit hash": "8e29a434af5a75f19287711d9e5bf104ac4108f9",
+        "commit message": "Expose state LiveData and let view subscribe to it considerung the LifeCycle"
+    },
+    {
+        "commit hash": "0d05f1441c01f23d12088f236cb98631510b6ab1",
+        "commit message": "Add reactiveStreams dependency"
+    },
+    {
+        "commit hash": "467b9fd220315f44e01a2afab57cd51101a51f20",
+        "commit message": "Migrate support to androidx"
+    },
+    {
+        "commit hash": "2e02c6c17cc9e2a8e8ebf5e0dd8c06c48b968304",
+        "commit message": "reverted variable names"
+    },
+    {
+        "commit hash": "2c0d3e2acf3c69492fb15eb1a52ea2c64e97f148",
+        "commit message": "removed abstraction"
+    },
+    {
+        "commit hash": "efebcc19c363be0a73237a257c36a081fc1be253",
+        "commit message": "Moved scope for State and Action into the ViewModel"
+    },
+    {
+        "commit hash": "bea331c668b469329e76efc6ced8d3047c8f7f7f",
+        "commit message": "removed extra lines"
+    },
+    {
+        "commit hash": "cb5648c7429f282e2490f77a054e4b36dda193a3",
+        "commit message": "added import"
+    },
+    {
+        "commit hash": "7c5a2ad12e5ae06ce40d6244c59571bc5b66d963",
+        "commit message": "simplify VM logic"
+    },
+    {
+        "commit hash": "0e80ea24251adaf2f59a256333abcce8ca3f5d70",
+        "commit message": "scope types"
+    },
+    {
+        "commit hash": "f9a219e57f89bed264b3a71d86edd7cbfa7f773e",
+        "commit message": "Displayer implement actionProvider and render"
+    },
+    {
+        "commit hash": "2dfbca795479b074270dbf33cc182f83107ad2bf",
+        "commit message": "automatic wiring"
+    },
+    {
+        "commit hash": "df90942a3d41759dfa2e25830bde1c3ad418ac9f",
+        "commit message": "renamed viewRender to Displayer"
+    },
+    {
+        "commit hash": "2deef0188a3d4658418571b9afba00188778e41d",
+        "commit message": "introducing lifecycle"
+    },
+    {
+        "commit hash": "cf7ab021d379f15f075fa2a73a46330a46ba4714",
+        "commit message": "WIP 3rd Session"
+    },
+    {
+        "commit hash": "d4758542af4f18e0f69a3a3a5af3217e8561538d",
+        "commit message": "Achieve session 2\n\n// 1. On activity start we see a loading on main screen\n// 2. Loading while a 2 seconds background operation completes\n// 3. After completing background operation print \"DONE\" on screen\n// 4. Move loading / background job to separate components"
+    },
+    {
+        "commit hash": "5f036b4e4d94f3de8137787b0afc8f181736b70f",
+        "commit message": "Execute 2 seconds background job and update UI"
+    },
+    {
+        "commit hash": "e1218149c7f269955318797da461ae3c165a904f",
+        "commit message": "Remove not needed null check"
+    },
+    {
+        "commit hash": "56ce7dbbbb6d5ab72fb76a428dfb5e6eb2ef3332",
+        "commit message": "Change changes to be a PublishSubject"
+    },
+    {
+        "commit hash": "f78e7abe618b482fa54dfa8fd718323918dba252",
+        "commit message": "Use scan operator to reduce changes to a state"
+    },
+    {
+        "commit hash": "c90fbe772aa787da49076e9b430d8dda068385af",
+        "commit message": "Change wording to highlight that the query is updated"
+    },
+    {
+        "commit hash": "2114248da0b3cae608f5f715fc4b131beb5449d4",
+        "commit message": "add hideLoading and removeResults actions"
+    },
+    {
+        "commit hash": "60c2daaa161cf358c8420cbc237fa7804531f4f2",
+        "commit message": "Expect SearchMiddleware to hide progress"
+    },
+    {
+        "commit hash": "34f4cfd93607ad6f935a7ff9abefc5733599b8e0",
+        "commit message": "Move domain agnostic screen state and screen state changes from domain specific middleware to the reducer"
+    },
+    {
+        "commit hash": "96f48b2a2fa74bf541e6ffb79eaeb66f679ff0e5",
+        "commit message": "Rename domain specific changes to domain agnostic screen state changes"
+    },
+    {
+        "commit hash": "3f2a17dc59ae3f1e1b77f7a1cb199c8acb7a5da5",
+        "commit message": "First approach"
+    },
+    {
+        "commit hash": "16e8cecea933ddc2df6f3d5969438d8c44b49ccc",
+        "commit message": "New coroutines demo app"
+    },
+    {
+        "commit hash": "d3d5e92a060d7a6d82cf9207b25e3f28c3e8a8e3",
+        "commit message": "Reduce state using state changes"
+    },
+    {
+        "commit hash": "033fbe01534df88bbd07dc33fb050ccbc1f70465",
+        "commit message": "avoid unnecessary refreshes of the input field"
+    },
+    {
+        "commit hash": "aea3e85e459899ff8774842ede6e5173578f5e16",
+        "commit message": "handling error states"
+    },
+    {
+        "commit hash": "b65314b9eddb710ab00c248816428ac092e8b56f",
+        "commit message": "handle loading"
+    },
+    {
+        "commit hash": "24f4df2ebde833f1fdce96b03088795966c118e3",
+        "commit message": "use viewModel to allows state to survive device rotation"
+    },
+    {
+        "commit hash": "85943087e26266b640fa063e062603f448ec7135",
+        "commit message": "split render and action provider out of a single interface"
+    },
+    {
+        "commit hash": "3b72d1122c073a978bf0b3c2f6d2afde976ea5c1",
+        "commit message": "create abstraction fort the MovieDataSource"
+    },
+    {
+        "commit hash": "ca4136a544c1dcd0057b47e287e589d976c507bc",
+        "commit message": "Test search middle ware"
+    },
+    {
+        "commit hash": "d8c87d8f21bfaa70f610e8031f4113d33d57e034",
+        "commit message": "Add tennis-tdd kata to android-demos"
+    },
+    {
+        "commit hash": "24324615517846afca9ed7e28831e634fe8ac3c8",
+        "commit message": "Fix typo: moviesSate to moviesState"
+    },
+    {
+        "commit hash": "70aea75b6813ae0f92228a5fea64134f0a631773",
+        "commit message": "Amend lint issues"
+    },
+    {
+        "commit hash": "821a554693dd50696f645ff5f0d8269e8e9b1c96",
+        "commit message": "Convert API to Kotlin"
+    },
+    {
+        "commit hash": "bdd628854acffc362c82191f9a6db7ba7c124c53",
+        "commit message": "Convert Dependencies class to Kotlin"
+    },
+    {
+        "commit hash": "ebd0934e5ccf3fdd7b63de400caea90812b52a63",
+        "commit message": "Convert model to Kotlin"
+    },
+    {
+        "commit hash": "25098a8b26a8aa0c502f35dc2235ea3e458dbad9",
+        "commit message": "Convert  MovieService to Kotlin"
+    },
+    {
+        "commit hash": "4fa1839412177db56603828e4fb5724d9e31566c",
+        "commit message": "Add explicit RxJava1 dependency"
+    },
+    {
+        "commit hash": "d57f7da71272917a6d192fa745fa1d58b81b81c1",
+        "commit message": "Convert MovieState to Kotlin"
+    },
+    {
+        "commit hash": "9cc2310a0d7af950262c2b5ad7c31b087d651979",
+        "commit message": "Fix typo: rename MovieSate to MovieState"
+    },
+    {
+        "commit hash": "8ed8702f9fa4545a18c4fb66857df49db9cfc573",
+        "commit message": "Add kotlin dependencies"
+    },
+    {
+        "commit hash": "28c4fef21bdee359870a533af8f1ef5eaa90c1f0",
+        "commit message": "Update dependencies"
+    },
+    {
+        "commit hash": "dca82f3e48946ae35bac646d881beaccad977bd8",
+        "commit message": "Update ModelViewIntentSample/readme.md\n\nCo-Authored-By: Joe Timmins <joetimmins@users.noreply.github.com>"
+    },
+    {
+        "commit hash": "0dd91deb2b29216dea51a03d73a774ba711c2163",
+        "commit message": "Add diagrams to readme"
+    },
+    {
+        "commit hash": "7433c8e4edd585cef10a5ea85732e9d81a40f568",
+        "commit message": "Add diagrams"
+    },
+    {
+        "commit hash": "a47ec0544bbc8afefeb81e5f5f3d9dc00b6687f6",
+        "commit message": "First draft of a readme"
+    },
+    {
+        "commit hash": "f3ba3e3f29e77e580f775617863bc70b14b90ea4",
+        "commit message": "Remove unused classes"
+    },
+    {
+        "commit hash": "1de22d6e8ab9dda5c7d402b04c5336fb71b0b89a",
+        "commit message": "delete test app for coroutines"
+    },
+    {
+        "commit hash": "3f32fb0b5db2983f5893e7418dc3cdf3ab3eb1ce",
+        "commit message": "move mvi to core"
+    },
+    {
+        "commit hash": "5d8bcf6a9c2e3cc8f873f4a7d244194baca36d44",
+        "commit message": "removed tests"
+    },
+    {
+        "commit hash": "a203daf770293223899f59755771331d35deee6d",
+        "commit message": "separate lifecycles of bind and wire"
+    },
+    {
+        "commit hash": "79ff12744178502f983e9f63467fdf8430b578f8",
+        "commit message": "hook clear query"
+    },
+    {
+        "commit hash": "86ce87f5bd433020afbcc12fcafe336d93aa5e04",
+        "commit message": "Show search results"
+    },
+    {
+        "commit hash": "698f827f24cbfcb981c55fd19ed2b52104f88c7b",
+        "commit message": "Replace SearchState with a lce sealed state"
+    },
+    {
+        "commit hash": "6c12a66685aefe9408ae8b87045328a59b0b3115",
+        "commit message": "Subscribe on worker scheduler for search execution"
+    },
+    {
+        "commit hash": "94d075679bf28d901b5c620c3aa05daaa18e619a",
+        "commit message": "bind execute search action"
+    },
+    {
+        "commit hash": "b6ee90142e4edd1621471b1766670ebbaba4e81a",
+        "commit message": "add baseStore into the Activity"
+    },
+    {
+        "commit hash": "43043b857573374fdb57a4eceb3bfe1761f08d51",
+        "commit message": "make Activity implement MVI interface"
+    },
+    {
+        "commit hash": "be9a4b92a54b9ff52169ece1ac88f3ca4d36f7b4",
+        "commit message": "implement basic reducer"
+    },
+    {
+        "commit hash": "da7c6c765a288adfaaa3c3239054b9d2f96072ea",
+        "commit message": "implement basic binding"
+    },
+    {
+        "commit hash": "cff20056b8af9624b09c024fcd67c0794394448d",
+        "commit message": "Introduce a search middleware"
+    },
+    {
+        "commit hash": "fcf8f47a37230808a2e248f526f951833882a09f",
+        "commit message": "Introduce packages to separate domain from data and presentation"
+    },
+    {
+        "commit hash": "75f52f8f9a4d34033a8dab48c8ecd1fe428efab9",
+        "commit message": "Introduce generic definitions for Middleware, Reducer and Store"
+    },
+    {
+        "commit hash": "a26b807b01792df527ab652fa48ff0399d6a8d98",
+        "commit message": "Add example implementation of the model view intent pattern"
+    },
+    {
+        "commit hash": "625c6b5c9698abb61285d8764692097b96e0ce00",
+        "commit message": "Replaced confirmation toast with confirmation screen"
+    },
+    {
+        "commit hash": "9bd609d6ae31d1d24f9aa34c9b28295d9359f30d",
+        "commit message": "checkout basket UI improvements"
+    },
+    {
+        "commit hash": "d20f265bb8b75d9d382d486d64c94f7f6720af33",
+        "commit message": "Restored checkout flow"
+    },
+    {
+        "commit hash": "a66fa850622801cacbf4ad7bfa695607935c4a45",
+        "commit message": "restored checkout functionality"
+    },
+    {
+        "commit hash": "4065f648c642d4ccd7eac180a397e6db32c16cc2",
+        "commit message": "add results from pairing"
+    },
+    {
+        "commit hash": "cbc77b785613f6bf9ac81325c74907973010f3c1",
+        "commit message": "fix typos, clarify method names"
+    },
+    {
+        "commit hash": "056bec444796420d44b4f83fc45731c1a77b572a",
+        "commit message": "add name for parameter"
+    },
+    {
+        "commit hash": "652abe699d5265180944ad1515799bb7883df79a",
+        "commit message": "add total amount"
+    },
+    {
+        "commit hash": "009556fada026db9edf86a2e28307ee0cb99a154",
+        "commit message": "add price to basket"
+    },
+    {
+        "commit hash": "bfbc54cc96fb4aa32d308deea6d9fa9880ed9839",
+        "commit message": "add plus minus button functionality"
+    },
+    {
+        "commit hash": "c1733cdb6410f5d18d6df758de6c10f8939b2c1c",
+        "commit message": "remove ktlint"
+    },
+    {
+        "commit hash": "97bfbf209a73e40e9a6d04dafdfc3b635f7583f1",
+        "commit message": "add health endpoint"
+    },
+    {
+        "commit hash": "8353aa9f310652703294d8494a867da06a0588cd",
+        "commit message": "add new lines"
+    },
+    {
+        "commit hash": "40235c88f3aca945f2559ffaf086356fd89d6905",
+        "commit message": "enforce kotlin style"
+    },
+    {
+        "commit hash": "75d89e7243d9a69496d9256e52231c5de1821f1a",
+        "commit message": "use router - check database integrity"
+    },
+    {
+        "commit hash": "2bb5d79aa4313846cc9d75c553e9b2fffc94b78c",
+        "commit message": "add start server sh and rename packages"
+    },
+    {
+        "commit hash": "9f03b31f122256a7ca612c48bedf5e3dbec1196c",
+        "commit message": "use kotlin instead of ruby api"
+    },
+    {
+        "commit hash": "f0a249317e2a56cbacda435bd8103788d05f0ace",
+        "commit message": "add categories"
+    },
+    {
+        "commit hash": "e71d8727307e1577831d6548ae6274b501ac6e31",
+        "commit message": "add simple spark api"
+    },
+    {
+        "commit hash": "275bea68f7bf725e0e617cc978e3e69e2a88a42c",
+        "commit message": "updating some dependencies"
+    },
+    {
+        "commit hash": "597b0e9f403c27f57144524a251a3eb91670c1de",
+        "commit message": "add new lines"
+    },
+    {
+        "commit hash": "d280dead46d0a3096821c7fe6c0741ad5320d0f8",
+        "commit message": "extract articles to constants"
+    },
+    {
+        "commit hash": "c42a8172d7e8908e273300d0fcb6b01fe661719a",
+        "commit message": "add constants for fetching from repository"
+    },
+    {
+        "commit hash": "a5dec5c1ac3d2b0f726c9d9908391544344bfc52",
+        "commit message": "use before class"
+    },
+    {
+        "commit hash": "581030a761012c6688694554530768ca70df8317",
+        "commit message": "use moshi instead of gson"
+    },
+    {
+        "commit hash": "61957e4fbd15cd6c5e741c9768fb7b68a2917d6f",
+        "commit message": "change var to val"
+    },
+    {
+        "commit hash": "f55c3368e91a1df9aee5f2eacef164b44aa06677",
+        "commit message": "separate rules"
+    },
+    {
+        "commit hash": "203ddbaa94bf90070205c09f5764c8099e6835e1",
+        "commit message": "rename models"
+    },
+    {
+        "commit hash": "4e41040171e82627bbce9abee3bb2c8544d42a6e",
+        "commit message": "fix typo"
+    },
+    {
+        "commit hash": "8ee9e5de42c28704ba8c9cc5b3c86b30ed587f88",
+        "commit message": "split dtos into smaller methods"
+    },
+    {
+        "commit hash": "4de460c37134dafb8af812bd22bf78ccfcbb8510",
+        "commit message": "add repositories"
+    },
+    {
+        "commit hash": "b44420ea6076cbd5d84867e20b88645e3be391f0",
+        "commit message": "add new line"
+    },
+    {
+        "commit hash": "5521fd300d1e2a261fc743de9a56cd0e883cdd83",
+        "commit message": "add model and simple repository"
+    },
+    {
+        "commit hash": "08bcc26974e0d627678c46a4e6f81d5fa8d47a68",
+        "commit message": "add shutdown method"
+    },
+    {
+        "commit hash": "37ba7b23a04bd320dea26bda0ff0fec76abc1196",
+        "commit message": "use rule in test"
+    },
+    {
+        "commit hash": "bc9b5264405b6b5bd0016d7cd0a5a2681d314a1e",
+        "commit message": "add methods for json response"
+    },
+    {
+        "commit hash": "c2e3a49495b811d4b6b223564ac0dd6e4b834290",
+        "commit message": "add test rule"
+    },
+    {
+        "commit hash": "83a2c219655dff5aa797cae48642589bab29ccd8",
+        "commit message": "Change left over wrong namings"
+    },
+    {
+        "commit hash": "1f6a1f261773a9d2ea4f0fb3c9af171db48ec229",
+        "commit message": "Rename fields to improve readability"
+    },
+    {
+        "commit hash": "dfc8c1b1ef61fa72fceb2e4b5e26483fa5b78865",
+        "commit message": "Remove no more needed state"
+    },
+    {
+        "commit hash": "a1a05aed60fdab10d486377ee71b40ded7c513a0",
+        "commit message": "Show/Hide the loading indicator based on NetworkStatus"
+    },
+    {
+        "commit hash": "26d92a529fe5631bd20f6bba8d256dfc0bd5a31e",
+        "commit message": "Expose NetworkStatus to indicate loading"
+    },
+    {
+        "commit hash": "0fce32cbe48ab66d5f04b895a7d70522a721a297",
+        "commit message": "Remove not needed code"
+    },
+    {
+        "commit hash": "851f865cc8abcf47bd60213070cba4c07d31b92f",
+        "commit message": "Inline listener in order to reduce the diff with the target branch"
+    },
+    {
+        "commit hash": "a0650e4015a0886463f8b86adacce09378566e58",
+        "commit message": "Increase prefetch distance"
+    },
+    {
+        "commit hash": "3f4674d9b2a9224fabf8ceedafbb446f333b7f70",
+        "commit message": "Remove custom executor service"
+    },
+    {
+        "commit hash": "af099504ffa65559ea3eba367b95c92a58c37cb6",
+        "commit message": "Remove not needed apis"
+    },
+    {
+        "commit hash": "fab237c2d1b51723c0bb2099a25dac3783c8f9eb",
+        "commit message": "Set arbitrary page size to prevent crash"
+    },
+    {
+        "commit hash": "29d449133ac664035baba96f7d80240697b19a85",
+        "commit message": "Load next page instead of loading always the first one"
+    },
+    {
+        "commit hash": "b300cf52f5c966603a8313947664afde5d53f627",
+        "commit message": "Bind PagedList of Movies to recycler view"
+    },
+    {
+        "commit hash": "dd9150f52554e09a8eaedbffe48d8cb9df1aca65",
+        "commit message": "Introduce PaginatedMoviesAdapter as PagedListAdapter"
+    },
+    {
+        "commit hash": "b7a5af4ced43cd9c20f332103dd6fa6ba2246ad2",
+        "commit message": "Expose paginated list of top rated movies"
+    },
+    {
+        "commit hash": "c1760a9cac96598c1239f9c4406ab497fcf5dc11",
+        "commit message": "Migrate DataSource to use MovieService instead of the API"
+    },
+    {
+        "commit hash": "05477e3dcb19cdae46dabf0d4b6064e5a40659fd",
+        "commit message": "Add callback based API to MovieService for top rated movies"
+    },
+    {
+        "commit hash": "d4ed2e01e3ef3134ae77c34d65ed104ed033c24a",
+        "commit message": "Introduce MoviesDataSource to consume the paginated top rated movies backend"
+    },
+    {
+        "commit hash": "5110fcb59bd47366137f953010ec8319fb8dcac0",
+        "commit message": "Bump constraint layout to latest version"
+    },
+    {
+        "commit hash": "4bd70ae4413ccfbf49f26369db17a90cbab511be",
+        "commit message": "Add paging dependency"
+    },
+    {
+        "commit hash": "ce658fdc790605cae767147a4838648ee79c931c",
+        "commit message": "Fix name space and file formatting"
+    },
+    {
+        "commit hash": "282dc09eb008efa120c743879c6ac036b6a31bdf",
+        "commit message": "rename test methods"
+    },
+    {
+        "commit hash": "469b7c2e82801a9d686e693d7e69c040175818b3",
+        "commit message": "remove accidentily added gradlewrapper and add new line"
+    },
+    {
+        "commit hash": "32608ddc2e1b20767d4097abadf3c93d4d1d9a2b",
+        "commit message": "chain page objects and add user flow"
+    },
+    {
+        "commit hash": "ae54d5018421231eb01a612956bb6293f84e54cb",
+        "commit message": "use main page method in test"
+    },
+    {
+        "commit hash": "750169f8e9db641fcfd47f9afd0b052f6934ffcd",
+        "commit message": "Add top rated fixture"
+    },
+    {
+        "commit hash": "7dca1d8be154de6954f04b9b4de1d73a73fa0286",
+        "commit message": "Add junit test support"
+    },
+    {
+        "commit hash": "c8504f0d9254d555d471674e1027885d38062286",
+        "commit message": "Duplicate of EspressoUserFlowTests"
+    },
+    {
+        "commit hash": "262b2d3d934f3d79520d7bea7973db7605c4ca17",
+        "commit message": "Removed HeaderPageObject"
+    },
+    {
+        "commit hash": "7b4e17c6e12ef7e79bc81b43d55965c9d958752d",
+        "commit message": "updated MainActivityPageObject"
+    },
+    {
+        "commit hash": "dafbef3b88d58ad54122b07e1f597939a2f19b72",
+        "commit message": "Removed redundant tests"
+    },
+    {
+        "commit hash": "b226bb60cd06397dd50333deadf41d2eae10eba5",
+        "commit message": "Added missing \")\""
+    },
+    {
+        "commit hash": "7bd478090bf922df85f8c302ccfb026441c6c913",
+        "commit message": "Refactored ProductListInteractorImpl to better follow Kotlin syntax"
+    },
+    {
+        "commit hash": "b1a48a80c41b6efd02caa0c7a8343620bfcf49c9",
+        "commit message": "Made server repository more readable"
+    },
+    {
+        "commit hash": "fc234eadfe7059fc98e5f9f5f7bfbc282116f628",
+        "commit message": "Small typo"
+    },
+    {
+        "commit hash": "52a6235a6039d55585ba89843bfc5ca54a7f1d5f",
+        "commit message": "File formatting"
+    },
+    {
+        "commit hash": "1d14e369a8bdc3d39fcb6c9a196ceb40ad201e1b",
+        "commit message": "Use primary constructor"
+    },
+    {
+        "commit hash": "5e2f7d48b63caab3efbaa37113ee48461b0f2afe",
+        "commit message": "Refactored the Interactor classes to better follow Kotlin syntax"
+    },
+    {
+        "commit hash": "5d603ce260b60eb811f2377d972a194e5a74784c",
+        "commit message": "Remove unnecessary toString() implementation"
+    },
+    {
+        "commit hash": "4228a7863069f9a1c5c71f670cb392d3913acc28",
+        "commit message": "make intent a property"
+    },
+    {
+        "commit hash": "700d476a4e7d94865f92e8b20a98a9af1ae6a1fc",
+        "commit message": "Make NetworkTimeout @Named"
+    },
+    {
+        "commit hash": "217b15b9dcc9a6c2a8d4d4bf54bfc3d162450ec4",
+        "commit message": "Remove app module"
+    },
+    {
+        "commit hash": "f33e9d822557778392632be16d91d8c743bd175e",
+        "commit message": "Remove import"
+    },
+    {
+        "commit hash": "309a3a7ddb54a40e535f2b8fe88b89ad9d8674ce",
+        "commit message": "Server cleaning up"
+    },
+    {
+        "commit hash": "7ad5d75b2c4f8e7b02d690946ad0a774acdda3a3",
+        "commit message": "Cleaning up"
+    },
+    {
+        "commit hash": "68361611dd3c880a0554d039d3c7630f25262ec4",
+        "commit message": "Removed obsolete @RunWith(AndroidJUnit4.class) from the Tests"
+    },
+    {
+        "commit hash": "a6abf1ee48e824facb8707fb13b97c9459a01a35",
+        "commit message": "ViewMatchers  cleaning up"
+    },
+    {
+        "commit hash": "00d4fdbace80497dc64b4facf2cf55e646b8e3b6",
+        "commit message": "Added the local server"
+    },
+    {
+        "commit hash": "30711f70331bc055b000210b49a5ec97809d7c4f",
+        "commit message": "Deleted wrongly configured simplesinatraapi directory"
+    },
+    {
+        "commit hash": "dcd75d510ea7112ca5d72d6efe027fe8d8b50900",
+        "commit message": "Run the ktlint formatter on the project"
+    },
+    {
+        "commit hash": "014061ef41c5581ae6e1eced1825125605535817",
+        "commit message": "Removed Cucumber-related dependencies, Custom Test Runner, and Step Definitions"
+    },
+    {
+        "commit hash": "9bd38a8e610d7398ffbd0686be3b53ccb3be4eeb",
+        "commit message": "Updated min SDK"
+    },
+    {
+        "commit hash": "4841f0ff7c0a668372f48a59a5559662b2d33eb3",
+        "commit message": "Updated README"
+    },
+    {
+        "commit hash": "aebd2b2d621d7f2b2d74aa3a07f09d2177b18cfc",
+        "commit message": "README cleaning"
+    },
+    {
+        "commit hash": "f6cd69a5f6e96b7d5c0d055f17f83d462858e979",
+        "commit message": "Enable the new data binding compiler"
+    },
+    {
+        "commit hash": "9923ba3f92611af6a2360a316b29dee6be3e2ac6",
+        "commit message": "Move recyclerview layoutmanager set to the layout"
+    },
+    {
+        "commit hash": "8affba77890d68e4546e6bba06d858cf572b9a6d",
+        "commit message": "Remove Butterknife"
+    },
+    {
+        "commit hash": "5a06b10f65786581b60660c652de91df70117d4d",
+        "commit message": "Restore unnecessary field"
+    },
+    {
+        "commit hash": "390f4931bbb9fc075ec2cdae03cfb7365deb2b13",
+        "commit message": "Clean up formatting"
+    },
+    {
+        "commit hash": "9bc7d73f8c99c6606579990f23ff602b85bbacd8",
+        "commit message": "Restore layout formatting for easier PR review"
+    },
+    {
+        "commit hash": "941386d76ca6190a15741dc7039dc8bcaf3ce944",
+        "commit message": "Restore trailerUrl check"
+    },
+    {
+        "commit hash": "3f15bf69e76f942f8adb0f95d15e579eb262b60c",
+        "commit message": "Remove dummy data"
+    },
+    {
+        "commit hash": "ffeb55781efa976b7acf9e9de860d91af78753c0",
+        "commit message": "bind moviesLiveData to the recyclerview"
+    },
+    {
+        "commit hash": "d3b173c425d4d3d4ce12a082b17e9eb75a0055f5",
+        "commit message": "Add custom binding for imageUrl file"
+    },
+    {
+        "commit hash": "bcd598ad4a27cf4297f6b21f0e76962fc24445ab",
+        "commit message": "Add binding for loading card"
+    },
+    {
+        "commit hash": "14ff8c31b5529fd60f83881ffc7620d5abeebe98",
+        "commit message": "Bind listener to item click"
+    },
+    {
+        "commit hash": "78b17d9d76cebfad1b8fb589374a79f939739146",
+        "commit message": "Add custom binding for imageUrl"
+    },
+    {
+        "commit hash": "30d64560b37b5203e6f0dcdae6f85a7d42f49eec",
+        "commit message": "Restore old layout tab spacing to facilitate PR review"
+    },
+    {
+        "commit hash": "4fc3d717892e706addbdc7d48aee9ecba691d71a",
+        "commit message": "Add DataBinding for movie item title and rating"
+    },
+    {
+        "commit hash": "2070478be35caf29657b660e186f4f1cd6e9f098",
+        "commit message": "Remove uncessary field"
+    },
+    {
+        "commit hash": "cb2d80ac08df6a894b2539a782b772a2182a8fb5",
+        "commit message": "Fix naming"
+    },
+    {
+        "commit hash": "15c59a33a37626bd4d0407d28bd70ad94e9cbcb2",
+        "commit message": "Remove blank space"
+    },
+    {
+        "commit hash": "b99efbc9974460f1e050a2915e0a33e833bd1f33",
+        "commit message": "Refactor ViewModel to receive Service instead of API"
+    },
+    {
+        "commit hash": "204edafc7488e1ec7dc727cdb7d4c8412b19e17c",
+        "commit message": "Restore MoviesService to showcase Transformations.map"
+    },
+    {
+        "commit hash": "0b7667467192ae468415c172d388e744826be081",
+        "commit message": "Restore method name"
+    },
+    {
+        "commit hash": "d4ec3ec0cc75c4beb3e124951d6fbfb5afa91503",
+        "commit message": "Add livedata & viewmodel (II)"
+    },
+    {
+        "commit hash": "7358270cff49b4b3c8f866419043804f097ee164",
+        "commit message": "Add livedata & viewmodel (I)"
+    },
+    {
+        "commit hash": "949ad50c37441c3d4132d304e2d22af3bec9108b",
+        "commit message": "Moves MovieService to app module"
+    },
+    {
+        "commit hash": "f4ec2087a3161aa618096d901ff828541ebead89",
+        "commit message": "Added to Android Demos"
+    },
+    {
+        "commit hash": "1360d7335dc3f933e7ade95d26204bc2e78894d3",
+        "commit message": "Upgrade gradle to 4.7"
+    },
+    {
+        "commit hash": "c851a5d8b8a6515bab0f4a5f94e9c17e5444f38b",
+        "commit message": "Upgrade build tools and dependencies to the newest"
+    },
+    {
+        "commit hash": "5e25d5a6e52e740f7b96389f7aa3575d4dbe41df",
+        "commit message": "Demo movie app. First commit"
+    },
+    {
+        "commit hash": "26dfdf932fd2e0964f8adf7d63926c36b12beaf6",
+        "commit message": "Fix icon and preview paths in Readme"
+    },
+    {
+        "commit hash": "5768128e4251e851ddc2b5ede08931647733a638",
+        "commit message": "Move message displayer to Application"
+    },
+    {
+        "commit hash": "2e2888d2cb2d5c7aaf9440cad07d16b611728d4f",
+        "commit message": "Add basic components for TOAST message"
+    },
+    {
+        "commit hash": "f951707042b6a615f1ae24c00bdc17a240370bf4",
+        "commit message": "Create class PushMessage"
+    },
+    {
+        "commit hash": "f0c8d7cb64a2e37886f53269bacfc48efbc1acba",
+        "commit message": "Log received message"
+    },
+    {
+        "commit hash": "532328a04b11649db208c8a9e456a5cde9830411",
+        "commit message": "Add FirebaseProject & Update dependencies"
+    },
+    {
+        "commit hash": "d7b6e433d01af562dfa2fa0f0c75dce24cc7addd",
+        "commit message": "Initial commit: structure, basic dependencies and play services check"
+    },
+    {
+        "commit hash": "33bc10c6418d858238e6a6c25d6857a69b5af4f2",
+        "commit message": "Remove unused images"
+    },
+    {
+        "commit hash": "45352e3035711c4aeca3ead582b37341cdd5018c",
+        "commit message": "Remove Spritz from android-demos"
+    },
+    {
+        "commit hash": "bb65a907863425a02a321e8e0bea22df9a94d269",
+        "commit message": "Update README with link to blog post"
+    },
+    {
+        "commit hash": "84f1c59087ba8091026284d3bf59f4d73ba97c37",
+        "commit message": "Fix RTL support and unused style"
+    },
+    {
+        "commit hash": "e5b97f9fab2f9c2bc60edac1b77d0022d3fbe67b",
+        "commit message": "Add credits and link to blog post"
+    },
+    {
+        "commit hash": "506feec0cf6325854ba82d598af442c482055cbd",
+        "commit message": "Remove orientation in relative layout"
+    },
+    {
+        "commit hash": "28491f07482c538884cefad0f5e07eda217dea99",
+        "commit message": "Fix header alignment and removed description text"
+    },
+    {
+        "commit hash": "aa3250ddfd63f9367047de26f546f3e951f165f7",
+        "commit message": "Fix header height and alignment"
+    },
+    {
+        "commit hash": "c2081c4692d93e24ad7e4f5cbe660744ad09ace3",
+        "commit message": "Replace readme images with even better ones"
+    },
+    {
+        "commit hash": "d70d8abc5a67e5c2a61694e57691b9d5cf057fb8",
+        "commit message": "Fix sizing of header logo"
+    },
+    {
+        "commit hash": "5b82ec7ec1e697f072d9cf83e8d0b9111f812a9e",
+        "commit message": "Replace readme images"
+    },
+    {
+        "commit hash": "b7464ac15c32ad79eff8e6a5305bf2859d99e85a",
+        "commit message": "Update README with feature image and new GIF"
+    },
+    {
+        "commit hash": "ca9a0c6c6cc5b7526e4dce49236c5a2cc2be1476",
+        "commit message": "Ignore release files"
+    },
+    {
+        "commit hash": "565b4e0e1aab813c0d0b090accdb02a3e9ac6506",
+        "commit message": "Add new animation"
+    },
+    {
+        "commit hash": "cf0364fe771f91d395ae961128caf1ee11d11a1b",
+        "commit message": "Update Gradle and SDK"
+    },
+    {
+        "commit hash": "ba041d3f0f6cc7b70501ded73a5fd42b484fc726",
+        "commit message": "Rename classes to avoid Spritz prefix if not public API"
+    },
+    {
+        "commit hash": "4d09abbdfc796cd87c13676f315cac81fb80f190",
+        "commit message": "Use proper formatting"
+    },
+    {
+        "commit hash": "c6122444e8274850fd525f8bdc11e50e1b156b51",
+        "commit message": "Remove useless condition"
+    },
+    {
+        "commit hash": "20f5d92a128089b7d80c8c432ddf3b29b0bc7b04",
+        "commit message": "Reduce tag length"
+    },
+    {
+        "commit hash": "275baa6b7a7447cf0f2523ab830a39a5f65fa7eb",
+        "commit message": "Restore original calculation for start of swipe calculation"
+    },
+    {
+        "commit hash": "39a238f6d8d85ff90c53b0d1d2830c32fb5634cc",
+        "commit message": "Simplify listener structure"
+    },
+    {
+        "commit hash": "65b20a92905efbb60746faef6adf86e8f961629b",
+        "commit message": "Remove concept of automatic swipe completion, automatically handled"
+    },
+    {
+        "commit hash": "5c52382a109d4cce880fa203136558ff50176179",
+        "commit message": "Change calculation for manual swipe, improve naming, add logging"
+    },
+    {
+        "commit hash": "686a51c9cd930a60e8e427a16c506f3cb13491ee",
+        "commit message": "Set the cached position when the pager is settled, not when page is selected"
+    },
+    {
+        "commit hash": "4463f70ebdd031955d9b023fdbeb51ea01e0b3d8",
+        "commit message": "Extract OnPageChangeListener to separate class"
+    },
+    {
+        "commit hash": "133c4fcf5741cf3ee4e8e7ea4a9663f730487a4d",
+        "commit message": "Extract animation, position calculator and pager"
+    },
+    {
+        "commit hash": "09fe3fdad9221a34d31a7eb4073f474a631b0017",
+        "commit message": "Extract animation player into separate class"
+    },
+    {
+        "commit hash": "e6c9695afce1a05566aae79feef00630e9728ee5",
+        "commit message": "Fix swipe backwards, then autoplay again when page stays the same"
+    },
+    {
+        "commit hash": "a53c2477eb73a10d32a437e4932e7e3106145f74",
+        "commit message": "Add debug activity"
+    },
+    {
+        "commit hash": "74a274533d9dda9b770e31f799c77fe6803af2dc",
+        "commit message": "Set project version properly"
+    },
+    {
+        "commit hash": "5eb726bcb0071ff41d54f424f2da1c6f467e7eae",
+        "commit message": "Prepare for release"
+    },
+    {
+        "commit hash": "6062a0fbcc3da1f066ea159c8589034ac67fe6e9",
+        "commit message": "Update README with more compact info"
+    },
+    {
+        "commit hash": "98543eb4dc7ebdc7a0bd8676cf53ec767becd4c8",
+        "commit message": "Add icons to app"
+    },
+    {
+        "commit hash": "798587a202aded5688059fb29d8956b381507fa4",
+        "commit message": "Change default swipe animation"
+    },
+    {
+        "commit hash": "97a96827503b9fbf8b63770f8bf29f76d04b32aa",
+        "commit message": "Rewrite API to build Spritz, then attach, start animations, detach"
+    },
+    {
+        "commit hash": "b2e8c6d2050aaf19b2a02a29d7fdeb4a7573dbb0",
+        "commit message": "Remove auto-generated comment"
+    },
+    {
+        "commit hash": "d0615f0eaef246046c8ea55e152b0d438d200f0b",
+        "commit message": "Build Spritz instance and retrieve listener separately"
+    },
+    {
+        "commit hash": "2be9a1807bd9569d4df9fcded758b2d4efe8dbd4",
+        "commit message": "Use View for empty mock layout"
+    },
+    {
+        "commit hash": "0a6abe94e0ba611d97570909f42bffbd2187bfe0",
+        "commit message": "Start pending animations in onStart"
+    },
+    {
+        "commit hash": "f44b30d478853854fb618a3dbc9881bed4d37c42",
+        "commit message": "Remove support dependencies"
+    },
+    {
+        "commit hash": "2f5e61a472fd70180ccdad9a6c9ea95810b4dd75",
+        "commit message": "Remove whiteline and comments"
+    },
+    {
+        "commit hash": "7310506c771437dedd2ac58ddc074a5bf6c6a982",
+        "commit message": "Remove comments"
+    },
+    {
+        "commit hash": "ebe99aaeb3931424b1b1d4ae249401269a023e03",
+        "commit message": "Format strings.xml"
+    },
+    {
+        "commit hash": "b8aac679c88dfbfb33f64c4fbb71788c19578ac9",
+        "commit message": "Remove whiteline"
+    },
+    {
+        "commit hash": "bf8af393e8ffd08e0294948383ba373bde63e63e",
+        "commit message": "Remove constraint layout dependency"
+    },
+    {
+        "commit hash": "efe508669bc9b38523311c9def54b54435736883",
+        "commit message": "Remove Nullable annotation"
+    },
+    {
+        "commit hash": "635fd6158c58fde214d93abb95a699868919a90b",
+        "commit message": "Rename constant, make it private"
+    },
+    {
+        "commit hash": "bec8bf8a5da89d03bf4646289c0d4ce3fe9464e4",
+        "commit message": "Set allowBackup to false"
+    },
+    {
+        "commit hash": "bc0c033522d78ef89f5798d780a84a1362b52a4f",
+        "commit message": "Update Lottie, remove duplicate imports"
+    },
+    {
+        "commit hash": "bd30c37c43e4749853fb732b993c05c7cc01a824",
+        "commit message": "Add Apache 2.0 license file"
+    },
+    {
+        "commit hash": "30085d03d38ca15e25083f45da022d506a92ad45",
+        "commit message": "Remove double spacing"
+    },
+    {
+        "commit hash": "7adc4638ab2c0b1e585c94fd305ce220724b2e61",
+        "commit message": "Add java language to markdown code"
+    },
+    {
+        "commit hash": "62ad738a64883501985846f1525dba12c839016f",
+        "commit message": "Include better gitignore"
+    },
+    {
+        "commit hash": "e2a51cdb19e2d3e97f72ab0f246ac572131838bd",
+        "commit message": "Rename page to step"
+    },
+    {
+        "commit hash": "4bfb1654368f0becc7a283392e72483f336b173b",
+        "commit message": "Remove default proguard-rules.pro files"
+    },
+    {
+        "commit hash": "96a580d7747ed633d2e2e0672dee327caaeb826c",
+        "commit message": "Remove module from root project"
+    },
+    {
+        "commit hash": "8c97f9cdeeefc70e291983c2e929bb507b878c17",
+        "commit message": "Add GIF to README"
+    },
+    {
+        "commit hash": "98b423a8a47d8a3ccd97a4ad219950a5010b8e20",
+        "commit message": "Fix doc"
+    },
+    {
+        "commit hash": "4dd83ebc34127467fc9a9f79a18ec4620384f6ff",
+        "commit message": "Add spritz library and demo"
+    },
+    {
+        "commit hash": "9153393a7707da307d890cc1ec3b917290740aec",
+        "commit message": "Clean up: remove unused, fix package names"
+    },
+    {
+        "commit hash": "a6429fe11dd1e96a10d3965ffefa35553245f613",
+        "commit message": "Move snow village live wallpaper to demos."
+    },
+    {
+        "commit hash": "3c9606e102228459c43850a9b9c7df2526f88f43",
+        "commit message": "Fix broken Markdown headings"
+    },
+    {
+        "commit hash": "a88d47c9d553dd84f481b24ae3e1cb5d5e45af41",
+        "commit message": "Remove redundancy for encryption and decryption"
+    },
+    {
+        "commit hash": "5f3b7f9b709acdf44d94cf8487f0e93cf64355ce",
+        "commit message": "Throw exceptions appropriate to the abstraction"
+    },
+    {
+        "commit hash": "088ebca5472aa02ac3d65c60b78665e4a659e39d",
+        "commit message": "Add more details to error messages"
+    },
+    {
+        "commit hash": "16d950a3f3869c253b01ea2593ff4ccdf4ccea75",
+        "commit message": "Add more information to the catch of IOException"
+    },
+    {
+        "commit hash": "4de26123f75ebbab54d97b88a8b78146810fb226",
+        "commit message": "Add more information to the catch of the nullPointerException"
+    },
+    {
+        "commit hash": "d683906ad137944d9294d17f8289024fc63b84e5",
+        "commit message": "Add more information to the catch of the parseException"
+    },
+    {
+        "commit hash": "4ed92aa9043ac803615443afe5b908dfa48174df",
+        "commit message": "Define the tag of the log"
+    },
+    {
+        "commit hash": "fee5a22b3cbafa818102fc7324d9a5d3bcc95dc1",
+        "commit message": "Add log for exception catched"
+    },
+    {
+        "commit hash": "c8bbc4ca2b2de193a6e77ad7f92610719220109c",
+        "commit message": "Add TAG"
+    },
+    {
+        "commit hash": "898d093beeefdd2e05e9adb379b666bf5f226d37",
+        "commit message": "Document exception thrown"
+    },
+    {
+        "commit hash": "ac07b1a73b42e4083ea66422c80f3ae62d027fcf",
+        "commit message": "Add README"
+    },
+    {
+        "commit hash": "547f9e72989a5064feaa51931967e0cfb7aa0133",
+        "commit message": "TestingPersistence: improve UI"
+    },
+    {
+        "commit hash": "8f246d38ad03aa22eee1e8671b5c21f2850bbcb5",
+        "commit message": "Add sample for blogpost"
+    },
+    {
+        "commit hash": "afd116f7d52dc3082315173181e97c8f8c0a1fe2",
+        "commit message": "Add ios placeholder dir"
+    },
+    {
+        "commit hash": "9a0cef3bdfc8d40ade8259419f9c7679a0d75737",
+        "commit message": "CHanges the url to point to the answer directly"
+    },
+    {
+        "commit hash": "3fadc7548fb0af3b7e1215907086667edb68249e",
+        "commit message": "Add WIP demo that authenticates a user against Cognito"
+    },
+    {
+        "commit hash": "446a3b2c707a73a927eb9290df63a7770d0cf976",
+        "commit message": "Turn on syntax highlighting by specifying `java`"
+    },
+    {
+        "commit hash": "3da83b8f16f944e71db12529e2182bdabc5208b8",
+        "commit message": "Update main README"
+    },
+    {
+        "commit hash": "5f81b00f8407dd46a5e687c08b0238f0e57db257",
+        "commit message": "Add backticks to code"
+    },
+    {
+        "commit hash": "74dcf572c17a7366e148f78d51344cca7976946d",
+        "commit message": "Fix index"
+    },
+    {
+        "commit hash": "563ab8d7ba9b8079ce372bc9afb56a2392b4cfa2",
+        "commit message": "Fix formatting in the README"
+    },
+    {
+        "commit hash": "963b36fff1344c09700db9e303724735c563be2c",
+        "commit message": "Add Native Ads Express recipe"
+    },
+    {
+        "commit hash": "f10d8645f02d9ec8d1df75d3509b1703a784f3d6",
+        "commit message": "add README with a link to the first recipe"
+    },
+    {
+        "commit hash": "23f7d1c7fcb37658541696b4aa2b12caf9a2990c",
+        "commit message": "add finally block so the language is changed back to the default in any case"
+    },
+    {
+        "commit hash": "8877b8434525bdf7bd51b216b398e981849f8006",
+        "commit message": "fix typo"
+    },
+    {
+        "commit hash": "34e77965759729076bf06dce9392a6e6ba41359a",
+        "commit message": "Add recipe to change the locale for instrumentation tests"
+    },
+    {
+        "commit hash": "964a805b81f9e450ecf93be8935d3d7da1f5a340",
+        "commit message": "Create README for WearBuildConfig"
+    },
+    {
+        "commit hash": "4fe9e8b6b1ea1b6b92e7318994101aecf46bdfbb",
+        "commit message": "Update gradle version for WearBuildConfig demo"
+    },
+    {
+        "commit hash": "dec78a29bfe68f851b7a63c06d1dc7fece30a882",
+        "commit message": "Make WearBuildConfig an independent project"
+    },
+    {
+        "commit hash": "3f4cf8d1d9feeb9fbc0481f72c3a28034efae44d",
+        "commit message": "Use rootProject.file() for signing config loading"
+    },
+    {
+        "commit hash": "6f52498c8dd6198a2f37512127f7425f7ba05397",
+        "commit message": "Rename qaRelease with qa"
+    },
+    {
+        "commit hash": "042ae781186e2a90e089d0e5c5bf943d7af140d0",
+        "commit message": "Rename preProduction to development"
+    },
+    {
+        "commit hash": "4bb043c0500d6d7511eea468433cbb4aa348000d",
+        "commit message": "Add watch demo activity"
+    },
+    {
+        "commit hash": "4fb1e7a406d483546dfbe190b6d083ce3d99b026",
+        "commit message": "Enable Wear bundling for QaRelease builds"
+    },
+    {
+        "commit hash": "50683b0ecdf6c04620ca0c693fb7f8c4b0ba661b",
+        "commit message": "Add shared signing config"
+    },
+    {
+        "commit hash": "77ae77ef5cbbc413396dece152daf1f2ad3ee5a0",
+        "commit message": "Add multi-dimensions flavors"
+    },
+    {
+        "commit hash": "aeb420e725eecf8be19ecac6a42be612baa37561",
+        "commit message": "Create minimum required modules for wear"
+    },
+    {
+        "commit hash": "3c289313961558e02b4375a005ff8594dc931254",
+        "commit message": "Update gradle build tools"
+    },
+    {
+        "commit hash": "b82e416c4bc921a34dd1a0872c7eaa0016b27111",
+        "commit message": "Fixes wording of the documentation"
+    },
+    {
+        "commit hash": "fbbad87694ba48ede0c523ffb53c30171b5702eb",
+        "commit message": "Extracts explainatory method"
+    },
+    {
+        "commit hash": "3fb5423dc57fc6c2a87c9c8731437eedefdc7a03",
+        "commit message": "Use the dependency from jcenter directly"
+    },
+    {
+        "commit hash": "8046c8108d8667e8d44cffae94f4bcb7e86b5d00",
+        "commit message": "Extract methods and simplify the code a bit"
+    },
+    {
+        "commit hash": "6b9ad5f3741b6ff8c049c4a83373bbfe2a970e38",
+        "commit message": "Removes unnecessary permission"
+    },
+    {
+        "commit hash": "d44e76ec07d40bc41e64b02f0a6678c0d1ccc85c",
+        "commit message": "Renames YOLO suggestions because they're not YOLO"
+    },
+    {
+        "commit hash": "d3b70eed4faf894fc4feaaf8188bfc1974cd5cae",
+        "commit message": "Rename classes to have shorter names"
+    },
+    {
+        "commit hash": "19c78e76f143d7aadb26b956db396e15b1d9fe40",
+        "commit message": "Move both demos to a their own package each"
+    },
+    {
+        "commit hash": "203db0d601d7a93515a324d998c1e2e73c646bec",
+        "commit message": "Fix the RegEx for detecting leading spaces"
+    },
+    {
+        "commit hash": "d24149c6398809ef7d7a4c7392b9afcdd84843e8",
+        "commit message": "Code cleanup: Extract classes and move code around"
+    },
+    {
+        "commit hash": "fd1a112d4958b5b6e516547d8b2114a0f6581fc8",
+        "commit message": "Don't let the user select the hint, not even the first character"
+    },
+    {
+        "commit hash": "a5108ed5be659d128805ae577563fc6a9dad35f8",
+        "commit message": "Show hint even when tags have leading spaces"
+    },
+    {
+        "commit hash": "f7fe17835c02fef4fad6d440179fdacc7b544049",
+        "commit message": "Comment empty methods"
+    },
+    {
+        "commit hash": "f8032e72a030a9a9cc9edc5d6cd330b335fdb4b3",
+        "commit message": "Remove unnecessary dependencies and use gradle 2.14"
+    },
+    {
+        "commit hash": "2f4bcfcef0baf6c85432eb29f1d06e931b705fa7",
+        "commit message": "Add demo to README"
+    },
+    {
+        "commit hash": "65e74d07c48b1253ef622eacdf7c3a259ab9cf51",
+        "commit message": "Clean up the code a bit and add a couple of features:\n\n - Make tags selectable\n - Use a different resource for selected tags\n - When the 'Enter' key is pressed add the text as a tag and don't hide\n   the keyboard"
+    },
+    {
+        "commit hash": "a38ac448c0681db6944b8d82a61c16cceabbe7ca",
+        "commit message": "Improve Splitwise's demo to add the features we need"
+    },
+    {
+        "commit hash": "212479bbfd79214dbdf70751cb35edd35af3c413",
+        "commit message": "Removes libraries that aren't suitable and implements the ones that work\nfor us"
+    },
+    {
+        "commit hash": "18bd99df19abfdaabebea48afe9a6482ad43ca01",
+        "commit message": "Add blank screens that will be used to demo each library"
+    },
+    {
+        "commit hash": "39e37bc7ab68b7bea69a612cbf0eadc793cf69c4",
+        "commit message": "Add basic skeletton for the chips view demo"
+    },
+    {
+        "commit hash": "4a2597b1daee6b4af4e0ce09ae50a14775c6f753",
+        "commit message": "Update gradle and android gradle plugin"
+    },
+    {
+        "commit hash": "a161b59b7ebeb8c40589d7ebfd3e8382e68c2a19",
+        "commit message": "Update README.MD"
+    },
+    {
+        "commit hash": "e077505e93ca187091cc82928cc31e78444c5432",
+        "commit message": "Update README.MD"
+    },
+    {
+        "commit hash": "218daeba04fcddff1f9d383d6ab74ae52b415b23",
+        "commit message": "Update README.MD"
+    },
+    {
+        "commit hash": "6411be9a995cbad68df185d860b444bb08ee4667",
+        "commit message": "Create README.MD"
+    },
+    {
+        "commit hash": "febee02ac4befa357ac555d68226a9a43ba7719a",
+        "commit message": "adding details screen to show some stats about the application"
+    },
+    {
+        "commit hash": "512d102353b868953af061f128ad3d9e177208f8",
+        "commit message": "initial commit of super barebones sample app to display the installed apps on a device after gettinpast a sign in screen"
+    },
+    {
+        "commit hash": "9cb3bf2ec70add4185361cbb78c51c8562a442e5",
+        "commit message": "Add line breaks around headings so markdown recognises"
+    },
+    {
+        "commit hash": "0fffdcd7c25eadff97e4060ad96fc69398bf1bc4",
+        "commit message": "add missing package"
+    },
+    {
+        "commit hash": "d54c7413ddaf8d80d63653c1cdda309c39d21d25",
+        "commit message": "add buttons to store encrypted data in preferences"
+    },
+    {
+        "commit hash": "5cdabae35f0642e9fe243afe12e4c16b3378a150",
+        "commit message": "move code to package com.novoda.demo.encryption"
+    },
+    {
+        "commit hash": "aea276081fc62879c8ccbd7773cd03b476809f26",
+        "commit message": "use same icon for all screens, use same name for launcher icon"
+    },
+    {
+        "commit hash": "1a7b4eeabe9319c604b5a986d30c0da8a2637550",
+        "commit message": "add readme and update global readme"
+    },
+    {
+        "commit hash": "ecb9bf70c20c811168f1eefbee0bdedd7fc7843e",
+        "commit message": "add demo how to use optional dependencies"
+    },
+    {
+        "commit hash": "514524f4d86e406636c8b7c39a1cc540ca98268c",
+        "commit message": "update readme after running task updateDemos"
+    },
+    {
+        "commit hash": "87641e562f9010476d8f8d8ea2527325fcfc298d",
+        "commit message": "add updated readme after running task updateDemos"
+    },
+    {
+        "commit hash": "a0b2ec5589e0ace6dbacece9c98a52b8531e6024",
+        "commit message": "delete urban airship (devs should inspect https://github.com/urbanairship/android-samples/), delete gcm sample (devs should inspect https://github.com/google/gcm)"
+    },
+    {
+        "commit hash": "a599b30acc026b0286cb8e551a32a3165bd75a20",
+        "commit message": "remove unused variables and strings for tab host examples"
+    },
+    {
+        "commit hash": "52f30c4b59c39a4c56a88f98f7bcfa83f56353dd",
+        "commit message": "remove empty lines, replace deprecated uris, unnecessary properties"
+    },
+    {
+        "commit hash": "86cfdc907301d4331eb57866d2f130071e155d61",
+        "commit message": "delete demo CustomTabsHack, delete demo MultipleActivityTabHost"
+    },
+    {
+        "commit hash": "972f69d6e0a2ea35cc8ad5425a7215d6a09cb69e",
+        "commit message": "use master branch"
+    },
+    {
+        "commit hash": "de930d2eca1ddee780dd77efc636db175d02ef1a",
+        "commit message": "add references to NOS libraries and gradle plugins"
+    },
+    {
+        "commit hash": "0d7e4e69035e2dcc41c111a9c5ea03870b9c9987",
+        "commit message": "use demos.json file to generate link list"
+    },
+    {
+        "commit hash": "4a9d05585b797050c0fb2377dc91c01efd2704d5",
+        "commit message": "leave changeling unchanged"
+    },
+    {
+        "commit hash": "14b00b95872fc2fb8cef1e7ef3df2327ef36ab6b",
+        "commit message": "Delete TabHostMultipleActivityBrowsing"
+    },
+    {
+        "commit hash": "0a2905713a504400aaf0b24ae0b2f0165551d263",
+        "commit message": "Add licences button"
+    },
+    {
+        "commit hash": "cd61f9911f8e550f0a3dc1fd1fffcabc582fa925",
+        "commit message": "fix format in changelog"
+    },
+    {
+        "commit hash": "eb9d8ca0281618294682d50a53889e07c18993b5",
+        "commit message": "move maintenance code to separate gradle file"
+    },
+    {
+        "commit hash": "0f99f5b933247d6e8ddeb48be30e9906c341f0c0",
+        "commit message": "add changelog for June 2015"
+    },
+    {
+        "commit hash": "14730288a9b3dae712573abafda388c770f192f7",
+        "commit message": "remove use of android-command plugin"
+    },
+    {
+        "commit hash": "905be05c51c21993715c06f3dca6aaa288de0c97",
+        "commit message": "add short readmes for all projects"
+    },
+    {
+        "commit hash": "4eeac6a89e7d1a7aa4941d8a7fcc53c840452a26",
+        "commit message": "add readme, correct spaces"
+    },
+    {
+        "commit hash": "112d2b9dfc8ffa913da868126368c28d4c1778a2",
+        "commit message": "add readme, use CursorLoader"
+    },
+    {
+        "commit hash": "98a82b324abe63c41f6dd945d94d214239287d7b",
+        "commit message": "add readme, fix maxSdkVersion to 15 (https://github.com/android/platform_frameworks_base/blob/master/location/java/android/location/LocationManager.java#L1709)"
+    },
+    {
+        "commit hash": "9c8b72fc49eb146f36fc07700f10b0a996e415f6",
+        "commit message": "use landscape screenshot"
+    },
+    {
+        "commit hash": "a58a1247fa0937d00d36013c8a5c39735a6140d4",
+        "commit message": "add read and screenshot"
+    },
+    {
+        "commit hash": "7810b32cb477f9fa64552b8b0d6a84a37abf47f9",
+        "commit message": "Add change log file"
+    },
+    {
+        "commit hash": "d717c7e8eedbcc75c4e5c6aef2804a939c10b37d",
+        "commit message": "move license to license file"
+    },
+    {
+        "commit hash": "90705cd16380a1e07124d5f734f4c5e611caf1eb",
+        "commit message": "use gradle 2.4, add task to update all demos, stream line application ids, add empty readme files, add list of all demos, add android-command plugin"
+    },
+    {
+        "commit hash": "fb183adba3b9d6481e45c49e12927e830f486844",
+        "commit message": "Update buildToolsVersion to \"21.1.2\""
+    },
+    {
+        "commit hash": "798915a0d28a4f1a7a20d45ba2a91f83d82e674f",
+        "commit message": "Remove useless task wrapper closure from subproject"
+    },
+    {
+        "commit hash": "b9a3ceb7299fdb038d88a4ffe5517567f9ee3765",
+        "commit message": "Update gradle to 1.0.0 and wrapper to 2.2.1"
+    },
+    {
+        "commit hash": "ce24944e5bef2bfe775dd6d1c3ab567fc40e5c2b",
+        "commit message": "Update targetSdkVersion (21)"
+    },
+    {
+        "commit hash": "a462cc1f3daf703cb133036a010139da6f115890",
+        "commit message": "Update compileSdkVersion (21) and buildToolsVersion (\"21.1.1\")"
+    },
+    {
+        "commit hash": "e66fe0ce2f457728fc1e8a903556a81dd8f9af3b",
+        "commit message": "Gradleify wizard"
+    },
+    {
+        "commit hash": "1ca0bc11b8867b5084c372c6720bb5cbf7a3dfb7",
+        "commit message": "Gradleify TabHostSelfContainedTabBrowsing"
+    },
+    {
+        "commit hash": "5c9f7f9bc02fdad2ecb55caedd4e99ebef64fd01",
+        "commit message": "Gradleify TabHostMultipleActivityBrowsing"
+    },
+    {
+        "commit hash": "aa14d1111fb0d50cdc3a8310b4f1dfc499506c49",
+        "commit message": "Gradleify TabHostExample"
+    },
+    {
+        "commit hash": "f4001a840851604acbc2d1a695356ab1bfa50258",
+        "commit message": "Gradleify sms"
+    },
+    {
+        "commit hash": "6f7c2ac66247d90e7dc4d3452e28c0633d662680",
+        "commit message": "Gradleify simperAudioStreamer"
+    },
+    {
+        "commit hash": "a572cb3b062be6f887aaaa9fd25167d6f695d460",
+        "commit message": "Gradleify PushNotifications"
+    },
+    {
+        "commit hash": "a7474af8ca65f5b582a9f54ff23e06416e287b9d",
+        "commit message": "Gradleify PinchZoomDetector"
+    },
+    {
+        "commit hash": "305e957abaf62014d6e7d1fdfe2393db520efec4",
+        "commit message": "Gradleify MultpileActivityTabHost"
+    },
+    {
+        "commit hash": "a3ef851e2a6d5fbe1169f591d3304779324d05d3",
+        "commit message": "Gradleify MultipleContacts"
+    },
+    {
+        "commit hash": "dd3df62a5cfbd99c7b3ca42c02cede33c9e2d475",
+        "commit message": "Gradleify MapApiV2Demo"
+    },
+    {
+        "commit hash": "066d1c64c5a0daca816d0d7280928b5dff8b97f3",
+        "commit message": "Gradleify Livewallpaper"
+    },
+    {
+        "commit hash": "86e5ecc2248a0a4d6cc34319aa085c4958676293",
+        "commit message": "Gradleify ListStyles"
+    },
+    {
+        "commit hash": "7640a2f66f0f13ddd9b6a39dc1f6ee7a5dd65865",
+        "commit message": "Delete unused LeftNavLibrary"
+    },
+    {
+        "commit hash": "f2a67eb4344b16465bd7fcb50b0bec16c70d7ec6",
+        "commit message": "Add LeftNavBarExample to global settings"
+    },
+    {
+        "commit hash": "e4efc6b7e4acb03a129e7d33fbab423b581a1bad",
+        "commit message": "Rename LeftNavBarExample subdir to Example"
+    },
+    {
+        "commit hash": "0f1450c5b98a4e055de9cda1b2f0bcb1011006f9",
+        "commit message": "Adds Gradle to LeftNavBarExample module"
+    },
+    {
+        "commit hash": "f689507b3a69adc7aa837488c738d89681a331bd",
+        "commit message": "Fix Registered class is not instantiatable lint error"
+    },
+    {
+        "commit hash": "6d9c77d2d3d65915917c00a6e8ef7bfbab79bf6e",
+        "commit message": "Update gradle version for this project"
+    },
+    {
+        "commit hash": "d6e107019cbed329520f8b27f809da2d43380bb3",
+        "commit message": "Add required overriden methods to TabImpl"
+    },
+    {
+        "commit hash": "a7b1993e1b0199878c1e9640250cd2abcfe25d73",
+        "commit message": "Add required overriden methods to LeftNavBar"
+    },
+    {
+        "commit hash": "f5633a7bd1928c507ffe484d2553c22e3d8c4dcc",
+        "commit message": "Move LeftNavBarExample as independent project"
+    },
+    {
+        "commit hash": "d060bdbeada04de63780a11b772d616ab0dc8e45",
+        "commit message": "Gradle-ify GsonJsonWebservice"
+    },
+    {
+        "commit hash": "84046635c3e2c96e3b98b3a33f327f83e06e2677",
+        "commit message": "Gradle-ify CompassExample"
+    },
+    {
+        "commit hash": "dc3de58aa59f89bb47b25e2c57534972bab34e8a",
+        "commit message": "Gradle-ify Fragments"
+    },
+    {
+        "commit hash": "598b77305fcdddcb087eee25ebbff867ec38f657",
+        "commit message": "Gradle-ify FixedSizeTextColumns"
+    },
+    {
+        "commit hash": "998f9707f98c4be1428d8f3df00cdf123b3858e3",
+        "commit message": "Gradle-ify encryption"
+    },
+    {
+        "commit hash": "c9a6c4602c5550f2cf358b3d99e90955e213a67f",
+        "commit message": "Gradle-ify DynamicListItems"
+    },
+    {
+        "commit hash": "f75c9afae9afa5f9de3f8489e91d4c925423ec7a",
+        "commit message": "Gradle-ify CustomTabsHack"
+    },
+    {
+        "commit hash": "791c1361fe7f98b89ce56c94f64dc62fee00119e",
+        "commit message": "Gradle-ify ContactSelector"
+    },
+    {
+        "commit hash": "57d7c8a6b7f12ae28ebc8609c6ab69a2aace18c2",
+        "commit message": "Gradle-ify CarouselFragment"
+    },
+    {
+        "commit hash": "91b433cd5306de43bea8fdf42960623bf9b2ccad",
+        "commit message": "Gradle-ify CustomActivityTransition"
+    },
+    {
+        "commit hash": "c292acffe3b6026f6153a6125ba54b0a56924f58",
+        "commit message": "Add gradle wrapper"
+    },
+    {
+        "commit hash": "e8e3ca387944842711ed7a6a91d274577d5ab54f",
+        "commit message": "Add build results to gitignore"
+    },
+    {
+        "commit hash": "1014741b549ba763ccab4ac40648411238882202",
+        "commit message": "Add .gradle to gitignore"
+    },
+    {
+        "commit hash": "83e47adad54a7a3e3b7c560128c305f2c6e744ab",
+        "commit message": "Adds license"
+    },
+    {
+        "commit hash": "3052e6d253bd6a29c3e9b043ba87021242857ba5",
+        "commit message": "adding map api v2 demo, updating gitignore"
+    },
+    {
+        "commit hash": "2bb1098b42cf97cea9921e549341932dae89b5d9",
+        "commit message": "moved push demos to PushNotifications"
+    },
+    {
+        "commit hash": "e4ed0723abdc4b599d3e6156ccda963bea521c2c",
+        "commit message": "-using a rotatable imageview till the multi otuch view is ready"
+    },
+    {
+        "commit hash": "d292dc9c0e6af5197f514320a0bf7e35711539d9",
+        "commit message": "-fixing bits of the rotated image view"
+    },
+    {
+        "commit hash": "6afa4ab2cbaea988a65f7d4bb0a5b7c0f6a6530a",
+        "commit message": "it was not in the correct package"
+    },
+    {
+        "commit hash": "c22c81c76b5826683301300f93daf5fc5fe4e6b1",
+        "commit message": "first integration with compass but still not working fine"
+    },
+    {
+        "commit hash": "0dc5642d58aa935903fbd774fa4a1b0cbca1d909",
+        "commit message": "example floorplan"
+    },
+    {
+        "commit hash": "a3206f0964fb140a9c3c80bd071abbd439d25c10",
+        "commit message": "actionbar now activate deactivates the compass"
+    },
+    {
+        "commit hash": "c77c4bf11ec28f9f57dc073b70f005a74d0aafb9",
+        "commit message": "Rotation Image activity"
+    },
+    {
+        "commit hash": "3494fc42fff5af3a37d0984e8bf8aa0a40d693a2",
+        "commit message": "Image rotation and translation. Not still functional"
+    },
+    {
+        "commit hash": "8954610f0492fbafd975d58c08ad37d1e61ca347",
+        "commit message": "-rotation and bearing is now working"
+    },
+    {
+        "commit hash": "9ffeb3e943a843f615b6909d721069cc751e36bf",
+        "commit message": "-added activity to handle basic compass and accelerometer values"
+    },
+    {
+        "commit hash": "0eac14c496cd71674d3048e985c2f728ce801d8b",
+        "commit message": "-location is functional"
+    },
+    {
+        "commit hash": "e6ea3f2fc94bd7619661e56e667e1249f45e3861",
+        "commit message": "-refactored"
+    },
+    {
+        "commit hash": "ab536dca9f865d173769d4314b79e2c20d65d144",
+        "commit message": "-added setup for novocation\n-refactored package structure"
+    },
+    {
+        "commit hash": "2c36d923607e464742f61a576de54f04e1fed746",
+        "commit message": "-added novocation and manifest changes"
+    },
+    {
+        "commit hash": "97c0ec8c03bd2ce6872c4961165bba2769a7368b",
+        "commit message": "-added setup for compass example"
+    },
+    {
+        "commit hash": "8b53d87e0baefa8d1687a475a00952182aab00ac",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "c047f7b702bace3872b214639458f47cf90f7417",
+        "commit message": "[maven-release-plugin] prepare release leftnavbar-lib-parent-1.1"
+    },
+    {
+        "commit hash": "0406548f2e9b0d15fb3253b336dec05348065ab2",
+        "commit message": "fixed xml package names"
+    },
+    {
+        "commit hash": "69428c1adcc8d0414231dd7e9ddcbb5e701d9451",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "897851bcd2d03a530e6866203995a745ead249b5",
+        "commit message": "[maven-release-plugin] prepare release leftnavbar-lib-parent-1.0"
+    },
+    {
+        "commit hash": "c73af91d8b9712c83f92c9bee06362dab23da9b1",
+        "commit message": "bumped version of pom and chanegd from common to android"
+    },
+    {
+        "commit hash": "68fc81938b46834112a79c42f9acc27703d3e276",
+        "commit message": "updated leftnavlibrary snapshot"
+    },
+    {
+        "commit hash": "68527a610678c8406f3e19404dca8ea6877067d2",
+        "commit message": "added leftnavbar library"
+    },
+    {
+        "commit hash": "a3d2e996d239ec5b7147bc6f2ba03b07d8f80037",
+        "commit message": "Fixed readme spelling"
+    },
+    {
+        "commit hash": "d9bf1067d01c134d4e1f1424c4e7cdb6c11569a1",
+        "commit message": "Removed out folder from example"
+    },
+    {
+        "commit hash": "b749f27e71dd14093cdc700ef1b341c2062c1036",
+        "commit message": "Removed Intellij files from LeftNavBarExample"
+    },
+    {
+        "commit hash": "bd201091340ffac195561db4c4c5f0fdb4771408",
+        "commit message": "Removed IntelliJ files from library"
+    },
+    {
+        "commit hash": "c1f69793b4a994495dc8c884bc65803dc5702680",
+        "commit message": "Added LeftNavBarExample"
+    },
+    {
+        "commit hash": "f60a269d2eecad6cb705da0d6d94c6efe37cf73c",
+        "commit message": "IDs of clicked carousel elements are now shown when clicked."
+    },
+    {
+        "commit hash": "6daa2323bf5040d3e63a973afad42dbd8473f97a",
+        "commit message": "updated placeholder images."
+    },
+    {
+        "commit hash": "f46828bf0706a6284b2ee2bd7dddf8a5c03cd87f",
+        "commit message": "Carousel currently shows hiding and traversing."
+    },
+    {
+        "commit hash": "32d57e0e6a8b3f88740560bd5bcf31abcab99d61",
+        "commit message": "Added the first of the fragment demos."
+    },
+    {
+        "commit hash": "b07230504b083b66c85915f8ed479b77d0738844",
+        "commit message": "Added a simple example originally modified from javacodegeeks.com"
+    },
+    {
+        "commit hash": "053d7ca9ea5a778da6c0df9b4efcd2e9c266e2c1",
+        "commit message": "Deleted activities launch mode demo - moved it to a seperate repo"
+    },
+    {
+        "commit hash": "87af9a88cfed0e0ebf725c873992811fcd4a7fb8",
+        "commit message": "Added a cusomt transition demo. In this demo I simply turn off the transition but this demo can now be used to try ou tany other transition quickly in future."
+    },
+    {
+        "commit hash": "6997f74319810a6611ce50f3bbe78245a2f3b4f8",
+        "commit message": "Adding intent filter options dialog"
+    },
+    {
+        "commit hash": "070785b234ab09dd4fcb7bb0f6186e5277edc3af",
+        "commit message": "Changed the icon slightly, made the project compatible to android 1.6"
+    },
+    {
+        "commit hash": "ba40b90116c191d3cde453e66d53839f8f88b4c2",
+        "commit message": "Adding the \"Activities LaunchMode\" demo project"
+    },
+    {
+        "commit hash": "65897000ca04d58f2b2b538e5c07893063a306c6",
+        "commit message": "Moved the cipher vars to constants."
+    },
+    {
+        "commit hash": "3d647543c7c67be64f2848a7c3a0b7545af557f3",
+        "commit message": "Made it clear within the exception when unencrpyted passwords were being shown."
+    },
+    {
+        "commit hash": "1ce6848d75f6dc5042dad8b2d3392304dcc1a84f",
+        "commit message": "Encryption demo."
+    },
+    {
+        "commit hash": "62831c7c05e03894b6c0d4d95141670709084e65",
+        "commit message": "Merge branches 'gnorsilva' and 'master'"
+    },
+    {
+        "commit hash": "506e522ec58567bd1025ca91ba26264c482ea89f",
+        "commit message": "Created the PinchZoomDetector project. Implemented this class in the FixedSizeTextColumns, and checked wether a device has a multiple touch screen or not. Also, increased minimum required version to 2.1"
+    },
+    {
+        "commit hash": "3922efa07b6461ff6aa3f55b93106b52d94d428d",
+        "commit message": "Renamed webview_menu to webview_main_menu\nCreated an ids file for all ids used in the layout and menu.\nModified the string and id names to follow naming conventions\nRefactored the switch statements in HelloWebView"
+    },
+    {
+        "commit hash": "a63e31b6ab27d4311b7575703dd97f3d96c5c8a1",
+        "commit message": "Changed a few little conventions. Based on code review."
+    },
+    {
+        "commit hash": "f9da53d2a75118f3a7705d419f1e3f47182cbddd",
+        "commit message": "Created an app that displays text columns in a webview, with menu options for text zoom. Three different layouts are available."
+    },
+    {
+        "commit hash": "409ca0d538a824543aed77e4937ed94f8b940f84",
+        "commit message": "Updated the demos to store the IDs of the resources rather than putting all the Bitmaps into memory. Runs fast enough on the phone so seems like they don't need to be taking up memory."
+    },
+    {
+        "commit hash": "2df04423bfffc156c7bc3b193bb299e875a6355c",
+        "commit message": "removed some needless files."
+    },
+    {
+        "commit hash": "967ea4ba3a20813849720e86bc37c55f2e8346ba",
+        "commit message": "Adding the new live Wallpaper demos"
+    },
+    {
+        "commit hash": "97c36e3acc64a5bf8f89de780274c0d7ac2d6d6e",
+        "commit message": "Added the customTabs Hack"
+    },
+    {
+        "commit hash": "129678fd06c5a7ccc5bf3f39174ba3e4ae0b9590",
+        "commit message": "Removing unused notifications."
+    },
+    {
+        "commit hash": "6a3a3eef51a3c761d35faf4a8327aa5191e48593",
+        "commit message": "Added demos for List styles and notifications"
+    },
+    {
+        "commit hash": "402685077b42c95b5c47f68b7a4b0313a5b689f5",
+        "commit message": "Removed the .DS_Store files which had been added by mistake."
+    },
+    {
+        "commit hash": "072c500592e4094e17a7e7e9cb4b6e2ae26595c1",
+        "commit message": "Deleted class files which had been inadvertedly added."
+    },
+    {
+        "commit hash": "9cc741c03942039f37ee438807cd8bedd92eb487",
+        "commit message": "updated the gitignore not to include classes"
+    },
+    {
+        "commit hash": "50f553d56eed05236d7032c9b51fafa14066c323",
+        "commit message": "Added an example of tab switching with both one,selfcontained activity and many activities in each tab."
+    },
+    {
+        "commit hash": "041343ebba8ae0e22148fbce0c86c2ee67e85673",
+        "commit message": "removed the 'improved' class which I commited by mistake"
+    },
+    {
+        "commit hash": "87d02ad8b043fee5b5d8f3761d5bfc24f8367430",
+        "commit message": "Added the audio streaming example"
+    },
+    {
+        "commit hash": "55908966f4968a4c6c07a18d42ab963c87ac9ef9",
+        "commit message": "Added a wizard example."
+    },
+    {
+        "commit hash": "309e81885d7e640d83ddb7c1637c796c360f7986",
+        "commit message": "Added a multiple activity tabhost demo."
+    },
+    {
+        "commit hash": "444a2891844455766c35806c1376db03df058f5d",
+        "commit message": "Never finished this example"
+    },
+    {
+        "commit hash": "41c1ed721b284727ac73c556f433eb50b5872b5b",
+        "commit message": "Added an example of using the tab host as there does not seem to be anything else available. STILL!"
+    },
+    {
+        "commit hash": "c74289991d15ba20ddff0f86ebc537bd29f11756",
+        "commit message": "Added the Contacts Selector Demo"
+    },
+    {
+        "commit hash": "f1ad7ea6916e1a5f472707ffe2d063520ae6bb43",
+        "commit message": "Updated the .gitignore"
+    },
+    {
+        "commit hash": "41fe159fae71f14b48c2cce65b4e5b9dbbd62a28",
+        "commit message": "Added a demo of Dynamic List Items"
+    },
+    {
+        "commit hash": "041d6f2b44b02ca7be8571f367663dc6ffec37a0",
+        "commit message": "Added ignore file"
+    },
+    {
+        "commit hash": "53554be10872b00dd30a802ef6f0d3ee4c8432b2",
+        "commit message": "These are all the initial demos"
+    }
+]

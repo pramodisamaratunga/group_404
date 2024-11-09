@@ -1,0 +1,1194 @@
+[
+    {
+        "commit hash": "3e7d5fdb362f4bf9236c4b1f0483c90684b5e2f2",
+        "commit message": "Add travis jobs on ppc64le"
+    },
+    {
+        "commit hash": "499ae3a4a3beb4c20de6d856a3eadeb7aaa0119b",
+        "commit message": "Bump junit from 4.12 to 4.13.1\n\nBumps [junit](https://github.com/junit-team/junit4) from 4.12 to 4.13.1.\n- [Release notes](https://github.com/junit-team/junit4/releases)\n- [Changelog](https://github.com/junit-team/junit4/blob/main/doc/ReleaseNotes4.12.md)\n- [Commits](https://github.com/junit-team/junit4/compare/r4.12...r4.13.1)\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+    },
+    {
+        "commit hash": "521ce6e6d96c238b14eb2e0c83e5ffadba8c3785",
+        "commit message": "Made it possible to extend MessagePublication class"
+    },
+    {
+        "commit hash": "3da444255c2abf840c3cafda73081e9b3476098e",
+        "commit message": "Added performance chart"
+    },
+    {
+        "commit hash": "5974076faa647b8dd426bde5d26f7df68bb23b7a",
+        "commit message": "Update README.md"
+    },
+    {
+        "commit hash": "f173c6406544bed5cd86c407818591ac64648f83",
+        "commit message": "Publishing javadoc for mbassador:1.3.3-SNAPSHOT"
+    },
+    {
+        "commit hash": "60c153fb72868fc31e535852cf0c420022d26c2b",
+        "commit message": "Added changelog and version bump"
+    },
+    {
+        "commit hash": "1e98ff489d2b2cbc78717a6f543a16fbaa1a8118",
+        "commit message": "Upgraded to openjdk 7. Subsequent releases will not consider support of Java6"
+    },
+    {
+        "commit hash": "6af52178c3b2ad5d1a08e27f6896c3afad3db824",
+        "commit message": "handles enveloped config on handlers in interfaces"
+    },
+    {
+        "commit hash": "c6565f3cfd5a6b3b807e4198690ae4daf9a10a0c",
+        "commit message": "adds basic interface support"
+    },
+    {
+        "commit hash": "3e7232147c5a7bfcadd36f13c9c3f9822c3bb552",
+        "commit message": "1.3.1 Merged PR 150"
+    },
+    {
+        "commit hash": "3023b26ee0d84a0617c34a0361b00c4d63dcf1e0",
+        "commit message": "1.3.1 Merged PR 150"
+    },
+    {
+        "commit hash": "ea8a0dc22b1522e64404a54bd483428edf460f30",
+        "commit message": "Add a new way to define filters for handler methods\n\nUsing the `filters` attribute on Handler works fine, but results in a lot of repetition. This\nadds a way to avoid this, by introducing a way to define Filters on an annotation type."
+    },
+    {
+        "commit hash": "e9dd105c4aee861fa0f7634022479d9a724a8e88",
+        "commit message": "Allow SubscriptionFactory#buildDispatcher to throw MessageBusException"
+    },
+    {
+        "commit hash": "ff0f5fa14351a3dc5514f2b6d24a4a53a1328290",
+        "commit message": "Remove unused java image\n\nThis was used by the old javadocs link."
+    },
+    {
+        "commit hash": "e297c9dd4e4d38b81d57e995552d89b20f95e554",
+        "commit message": "Add javadoc badge to readme\n\nThis uses the magic of javadoc.io, which hosts the latest javadocs.jar from Maven Central.\n\nThis replaces the link to the github pages copy which has old javadocs (1.2.5-SNAPSHOT)"
+    },
+    {
+        "commit hash": "29def20bc1b300260abebb850abdfbee2dd17e1a",
+        "commit message": "Update README.md"
+    },
+    {
+        "commit hash": "8bcb9776ad1e683447067f36cab7c31ca1cf3980",
+        "commit message": "Update README.md"
+    },
+    {
+        "commit hash": "8ea1dc100f49840d95830feffc5fa1fceefc8e0b",
+        "commit message": "Add Maven Central badge to Readme\n\nTo help users discover latest published artifact."
+    },
+    {
+        "commit hash": "16686c561d603b888c31321f22bdfb952a00a378",
+        "commit message": "Documentation"
+    },
+    {
+        "commit hash": "a155f2417daf98719917c540b57f1f8df5688bd6",
+        "commit message": "Documentation and release planning"
+    },
+    {
+        "commit hash": "8ba22efd48d5754f5ce734f04f468ac49a575fce",
+        "commit message": "Added documentation links"
+    },
+    {
+        "commit hash": "4151a4bf361c70b2439d386a0edcf2513964f1e2",
+        "commit message": "Added documentation links"
+    },
+    {
+        "commit hash": "d6c27185b619d392652e355445d5d228e860ab23",
+        "commit message": "changed travis script command"
+    },
+    {
+        "commit hash": "344fb7699c45a0b34ccbb473b9c29b59e0054fd4",
+        "commit message": "changed travis script command"
+    },
+    {
+        "commit hash": "6690ea6835a7087bb2e4d5fe57a4bb5f431948de",
+        "commit message": "Remove assertj dependency"
+    },
+    {
+        "commit hash": "e64e31dd7113b4a8cd4fd785f5d1141b95e82cb5",
+        "commit message": "fixed wrong file name"
+    },
+    {
+        "commit hash": "e8abb749e24eea7b5ad153c74f1a65c27c2714d7",
+        "commit message": "Added build status indicator"
+    },
+    {
+        "commit hash": "c434078ab85fdd09dd5ee85c46c12933e69d925f",
+        "commit message": "Initial travis CI config"
+    },
+    {
+        "commit hash": "f58b0f35f33996968b808d38678f8fa62a775efd",
+        "commit message": "1.3.1-SNAPSHOT version bump"
+    },
+    {
+        "commit hash": "744c029ea08c536b3c2fd7f86bcf4ad04b5d311b",
+        "commit message": "Version 1.3.0 fixes PR 127"
+    },
+    {
+        "commit hash": "96986c3637b173fa5f172b5f7382854b7a386faf",
+        "commit message": "Update changelog"
+    },
+    {
+        "commit hash": "e2d9b8f6869182abcb9ffc77038d9343b1753e0c",
+        "commit message": "Release 1.2.4.2"
+    },
+    {
+        "commit hash": "2bf0f19f327e29b081aa7b2a4a85fc82107c544a",
+        "commit message": "Migration to nexus-staging-plugin"
+    },
+    {
+        "commit hash": "796486ba772e70cf709a0c8799de3d889dfb029c",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "a8f6a28d20bdefae25a6d9bcd921b2a5d9080379",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.2.4.1"
+    },
+    {
+        "commit hash": "44ec003b03f209b3d3909dd5c38f2aac1cabc239",
+        "commit message": "Removing pmd from pom.xml"
+    },
+    {
+        "commit hash": "2163a530c4cdad3a3fea87c841ad902a7efbc099",
+        "commit message": "Minor release for outdated dependency fix"
+    },
+    {
+        "commit hash": "bf8a2b0873c187855322da7effbc9a21160e97c3",
+        "commit message": "See bennidi/mbassador#133 Outdated test dependency\n\nMycila test runner replaced with Mockito test runner.  Assertj version also updated\nbuild.gradle and pom.xml amended\nRegression tested, all green under Gradle, but do not have set up to test under Maven"
+    },
+    {
+        "commit hash": "2c8fd206f9b39d690b953ddb8e2216bfd018d76c",
+        "commit message": "fix compiling under java 8 by adding param to the maven javadoc plugin to ignore issues"
+    },
+    {
+        "commit hash": "b6db6d26d908536b481b2e9ad41686b4de71f1d1",
+        "commit message": "swallow error handler exceptions"
+    },
+    {
+        "commit hash": "683f1d3cc1510a88af9172dba72a4c62fbf1c9db",
+        "commit message": "Removed unused private field"
+    },
+    {
+        "commit hash": "4074371c1ad760cdc83cf3960f3cb0158c108e63",
+        "commit message": "Publishing javadoc for mbassador:1.2.5-SNAPSHOT"
+    },
+    {
+        "commit hash": "4872d5131452f9d982e9e1b533b3ed3938ed9132",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "4503962ae0208c4027244b3eb98b6abd0c9a31de",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.2.4"
+    },
+    {
+        "commit hash": "edee5e13a3684394e574ca8a38c6a958b68c1e4e",
+        "commit message": "Removed unused private field"
+    },
+    {
+        "commit hash": "2801209dda8f726415325c79fdc093e677171306",
+        "commit message": "Publishing javadoc for mbassador:1.2.4-SNAPSHOT"
+    },
+    {
+        "commit hash": "7fff229e628a0f8018b64435f0541fe7f5b88e06",
+        "commit message": "Small refactorings with minor API changes. Increased test coverage"
+    },
+    {
+        "commit hash": "85606fe8ea27f1a636143ee6052fdc242bffa3b2",
+        "commit message": "Small refactorings with minor API changes. Increased test coverage"
+    },
+    {
+        "commit hash": "c5715acdd65c9be3cc4313579f027e2b55b37cd6",
+        "commit message": "Small refactorings with minor API changes. Increased test coverage"
+    },
+    {
+        "commit hash": "7e0aa0566fee335d20100e2044d99ad88ae9332c",
+        "commit message": "uniquely name each msg bus dispatcher thread"
+    },
+    {
+        "commit hash": "483d6401a2a3ef2155ee939372f1b41a1110a6c2",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "24e0d52b1a875af11d5e8b332d4248936592ba39",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.2.3"
+    },
+    {
+        "commit hash": "07d0cf528df537b389d20ecd00fcf73c37f17a63",
+        "commit message": "Version bump 1.2.3 because of failed release plugin"
+    },
+    {
+        "commit hash": "44150e217d1cc1714ac15dca7ddfda51c3abe661",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.2.2"
+    },
+    {
+        "commit hash": "a950b62a7391873cec1c2d9ad57b9428b0e979e7",
+        "commit message": "Retry release 1.2.2"
+    },
+    {
+        "commit hash": "4b7eadce6f3f24c5ea149d09a8f5bbd7fb867f77",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.2.2"
+    },
+    {
+        "commit hash": "b15ad227f315aa2bc327f39a0fc7778192811ebe",
+        "commit message": "Release 1.2.2, See changelog for reference"
+    },
+    {
+        "commit hash": "dfc1421229a344fe692e7de4313b2e974fd0bcb4",
+        "commit message": "Added comments for unit tests"
+    },
+    {
+        "commit hash": "22e9becc73841c2b53615e4388f514ea1832b12e",
+        "commit message": "Changed array iteration so that iterators are not created (now uses array iteration)"
+    },
+    {
+        "commit hash": "fda940c2d232ffcdc862a0cf415ceee2561cfa8d",
+        "commit message": "Small improvements to code documentation"
+    },
+    {
+        "commit hash": "6df0bae0c1b5025321813a7e06562b2a0d5df634",
+        "commit message": "Broken link in README\n\nLink to Guice integration page broken\nAlso Changed reference from #106 to #109 as being slightly more relevant"
+    },
+    {
+        "commit hash": "c31467da32150ea54b6eafa90f1973ef6ad0345c",
+        "commit message": "Convert to array/arrayList for performance. Changed some iterators to\nindex based iterators."
+    },
+    {
+        "commit hash": "d8c2bba93365a941c5c7495df171d59db699f76d",
+        "commit message": "Update README.md"
+    },
+    {
+        "commit hash": "5bc924c11dd339fb288c69128d7d2faba58e3d07",
+        "commit message": "Refactorings, Documentation"
+    },
+    {
+        "commit hash": "005915b42e2486f5095893a4429db32fcc5341ec",
+        "commit message": "fixed pmd codestyle errors"
+    },
+    {
+        "commit hash": "4a4b355a7f6a1a88deae429f66cc4995fa7dbe3e",
+        "commit message": "test improvements"
+    },
+    {
+        "commit hash": "261cab2dc5eb57bc3a915d5c89dbf771bf375be5",
+        "commit message": "added link"
+    },
+    {
+        "commit hash": "ba301c7aec7cda5d8538fec7f8daad5c15aa0ae9",
+        "commit message": "Fixed broken links"
+    },
+    {
+        "commit hash": "40e41d11d7847d660bba6691859b0506514bd0ac",
+        "commit message": "Fixing pom.xml, JavaDoc and unit tests + small code polishing"
+    },
+    {
+        "commit hash": "cca88c367be8fac8440527a36cb818af80bb3bc9",
+        "commit message": "Fixed recusion in reflection utils"
+    },
+    {
+        "commit hash": "6c19fd3bd9c7005c3f329fb43586db6ea7f45ad9",
+        "commit message": "PublicationErrorHandler moved to the BusConfiguration.  There are now 3 constructors for each bus type (MBassador and SyncMessageBus), enabling construction with either a) all default settings, b) all defaults plus a specified error handler or c) with a fully specified configuration.\nUnit tests added, build.gradle and pom.xml updated with assertj and mockito"
+    },
+    {
+        "commit hash": "b86c32b876c6c8651522250ab6a41580bbf9bbb3",
+        "commit message": "Corrected Gradle file"
+    },
+    {
+        "commit hash": "fd70480775b4cf4b6101c630e9221e436db69271",
+        "commit message": "Change to error message only"
+    },
+    {
+        "commit hash": "395e87210d3c28e1dcfb4c6a0044a43dacedd44d",
+        "commit message": "Switched back from concurrent hashmap to normal hashmap"
+    },
+    {
+        "commit hash": "70ddc3142f86288e3430d2c56cdf21071af1ba5d",
+        "commit message": "Fixed subscription.publish, since .size() is expensive, what we want is .isEmpty() compare"
+    },
+    {
+        "commit hash": "fdd3a7a310410ae3c18486eeaaa433d17fee6feb",
+        "commit message": "Added AbstractConcurrentSet.clear(), misc lock polish"
+    },
+    {
+        "commit hash": "3b613c9a91cf85cb7c7ec3a7d39a9e41f14e1734",
+        "commit message": "Removed eclipse specific settings"
+    },
+    {
+        "commit hash": "c239103b901e93f88373c10f5231070df460c60c",
+        "commit message": "Updated .gitignore"
+    },
+    {
+        "commit hash": "4fce93874619bd364c46186e4e335773f752c60a",
+        "commit message": "Implemented/added methods to AbstractConcurrentSet, so it can implement the Set interface, Added ConcurrentHashMapV8 to SubscriptionManager and StrongConcurrentSet"
+    },
+    {
+        "commit hash": "b0264fd4dd41c9b9f6624b81a8423d58eb3b309b",
+        "commit message": "Publishing javadoc for mbassador:1.2.2-SNAPSHOT"
+    },
+    {
+        "commit hash": "e9a1e6c95e9cd9b9696b61c4b368de980a301920",
+        "commit message": "updated to release 1.2.1"
+    },
+    {
+        "commit hash": "00f346b0aa0b47e9d069dfc127c22351e2417f11",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "1d4149a1019c3c8dd8e9053bb275153358854e7e",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.2.1"
+    },
+    {
+        "commit hash": "cebe1bab8d637c3b62c8414f7555ff8eea046abc",
+        "commit message": "Preparing release 1.2.1"
+    },
+    {
+        "commit hash": "7b3032877afb7ea1cf7bb00154b081cdda65d75c",
+        "commit message": "Factory returns interface instead of object to allow for extending message publication"
+    },
+    {
+        "commit hash": "1bb957769ff180c687e843f7da8be4b6cc02b9e9",
+        "commit message": "Added eclipse classes dir and libs to .gitignore"
+    },
+    {
+        "commit hash": "2a51bb4378a8518c6191ae9440f5d4b4e6fbcc99",
+        "commit message": "Changed MessagePublication to interface (IMessagePublication) to permit extending the MessagePublication and Factories"
+    },
+    {
+        "commit hash": "fd1ca55f58d991e9e7c3f55af3a767c1c39dc66c",
+        "commit message": "updated release notes"
+    },
+    {
+        "commit hash": "1ab19f84c9946a898115d96e222b56f2ae1d8192",
+        "commit message": "first steps towards release 1.2.1"
+    },
+    {
+        "commit hash": "7cd5a71e797e9b4b0f7afec31d8e0cc07862c094",
+        "commit message": "updated link to maven central repo"
+    },
+    {
+        "commit hash": "85dc02c4e32e5e9a75ec5eb9dd5d30bada8da3a8",
+        "commit message": "added JProfiler link"
+    },
+    {
+        "commit hash": "02cbeb9df17968d6a50adaceaad0c6cf404d7d96",
+        "commit message": "fixed README"
+    },
+    {
+        "commit hash": "5302c029c376191b45f7ee6f9227fbbd781acf4e",
+        "commit message": "Publishing javadoc for mbassador:1.2.1-SNAPSHOT"
+    },
+    {
+        "commit hash": "3c9e234406fc23bcf2cd13979c775ebdc006a740",
+        "commit message": "improved README, added comments"
+    },
+    {
+        "commit hash": "58630b1657ec3ba4cabf1ab3bacfbcc6c61d574c",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "716ba7eaccc60f9a0c580febcac5964049ed5417",
+        "commit message": "update documentation"
+    },
+    {
+        "commit hash": "b796ee7ba6ed8bb4a633087af7207b699501c4c5",
+        "commit message": "merged README"
+    },
+    {
+        "commit hash": "37f19166af71a89dea9325fdaa16b8aaceb37f8d",
+        "commit message": "update documentation"
+    },
+    {
+        "commit hash": "3a81b0a7b03ede5b6d7b3d58468dabc40c04fa8d",
+        "commit message": "updated README"
+    },
+    {
+        "commit hash": "cc37df92fa496c80d8f1c8dc625b18e41da68f9b",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "56597b125fc88539d38208fae7e1aa16f831ab4a",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.2.0"
+    },
+    {
+        "commit hash": "e2a403e8577a0c3eeb5e0eb7c39bd0fa7f61eeb9",
+        "commit message": "fixed pom"
+    },
+    {
+        "commit hash": "5c56360bf85b6eb0894fbe552a814b22dee1640c",
+        "commit message": "implemented #73\nreworked bus configuration"
+    },
+    {
+        "commit hash": "10b77616328daafdd498f246dc6e40380fc0bbdb",
+        "commit message": "Changes \"must not implement\" to \"do not have to implement\" because that is a clearer english description."
+    },
+    {
+        "commit hash": "1834145fe7c9670b24357f3df38cc53e760cb984",
+        "commit message": "Add support for meta annotations"
+    },
+    {
+        "commit hash": "9a81992a0ac991e7eb8b007e98a786229075d13f",
+        "commit message": "added documentation"
+    },
+    {
+        "commit hash": "ed901a85016dad266d9c90b2bf83dad74974efc0",
+        "commit message": "small code improvements"
+    },
+    {
+        "commit hash": "7c0c0b6f825d98793525595a7be5ed43f6b99e43",
+        "commit message": "refactored EL resolution for conditional handlers"
+    },
+    {
+        "commit hash": "cf104666c6e660c6ecf82136a90d18c3b71a4806",
+        "commit message": "JUEL dependencies are now optional."
+    },
+    {
+        "commit hash": "79323c55cfb791a191d6ef9a94f9fe9459327f9e",
+        "commit message": "update doc for current version"
+    },
+    {
+        "commit hash": "752feca1c2e7a6b3ad0d1c87f9b707c2861ac51e",
+        "commit message": "Use single quotes for better readability."
+    },
+    {
+        "commit hash": "e170301c2c591dc3289909f2d3ea2ab10e293753",
+        "commit message": "Added support for EL based event filter conditions"
+    },
+    {
+        "commit hash": "ca94c70675bc61bba9afb00d9dcfb6248a395234",
+        "commit message": "Publishing javadoc for mbassador:1.1.11-SNAPSHOT"
+    },
+    {
+        "commit hash": "de9515ed7d3576c38c1f5b161c5982dfe345bccb",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "c0a087b26abe7f538dc07843783c15fa09d9724e",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.1.10"
+    },
+    {
+        "commit hash": "4034024e30c5033878ae9905495fa8dce28a9732",
+        "commit message": "release 1.1.10"
+    },
+    {
+        "commit hash": "54f7bd72b90ff7608c97b8ba4708ca95bc4de573",
+        "commit message": "Subtype only filter, small refactorings"
+    },
+    {
+        "commit hash": "d84b3877faa2596015c9efdfa119a4e456cac29a",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "64974b7eefdf64581f048d4c691aa91d8949d45e",
+        "commit message": "fixed #58 (ordering of handler priorities)"
+    },
+    {
+        "commit hash": "6792d18f3aedf6f7f917a1c0fa56d31203801cd5",
+        "commit message": "Made IMessageFilter generic\nAdded javadoc to IMessageFilter"
+    },
+    {
+        "commit hash": "6a56e065713763b37746db8135f8c792b02d8718",
+        "commit message": "Publishing javadoc for mbassador:1.1.10-SNAPSHOT"
+    },
+    {
+        "commit hash": "5d7591ccdfaf09e8344d717bf26e43223ddd85b7",
+        "commit message": "linked javadoc"
+    },
+    {
+        "commit hash": "9ee3f11578d5d166cbbf1d83da4fb68c8a023aa2",
+        "commit message": "added javadoc to github pages"
+    },
+    {
+        "commit hash": "309ec2eefe3dee6e0b615dc328a49e084e0756bb",
+        "commit message": "Publishing javadoc for mbassador:1.1.10-SNAPSHOT"
+    },
+    {
+        "commit hash": "d2175fa2152f0ddc64de362f717eee9829e42ee5",
+        "commit message": "fixed priority handling, extended respective unit tests"
+    },
+    {
+        "commit hash": "5612cbee517d2bd74afcab22fac2fe0f4f84f953",
+        "commit message": "Added the ability to plug in your own subscription manager. This way you\ncan implement caching if you want to, or not if you don't want to.\nExisting applications should be unaffected."
+    },
+    {
+        "commit hash": "0d36eb65c7491fc1e6d5bc70cde968b1ac1e8b79",
+        "commit message": "updated release documentation"
+    },
+    {
+        "commit hash": "a48811455c057e7e0568f758ef8b831ac7b9f528",
+        "commit message": "updated documentation, small refactoring"
+    },
+    {
+        "commit hash": "cf0328ce005d048350f14a33168f0ee06341d9a0",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "7a139240b5d8270e71eaa5bce33664364495ddee",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.1.9"
+    },
+    {
+        "commit hash": "a6d5daed0ecf33c25f27179a0601376cd191fb64",
+        "commit message": "addressed issue 53"
+    },
+    {
+        "commit hash": "b0443680c601623450aea184bccb3dec37912054",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "e215da51c83b38e77cd0ddf6b11cde24ec4424f6",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.1.8"
+    },
+    {
+        "commit hash": "52f52864de3a0b9fc9b6a0459370f63a18510834",
+        "commit message": "Created ISyncBusConfiguration\n\nPreviously, SyncMessageBus required a full IBusConfiguration, which\nhas lots of methods about threading, etc. However, if you want a\npurely Sync bus that never uses multithreading, you probably don't\nwant to create all those threads and dispatchers. This change allows\nyou to call `new SyncMessageBus(new SyncBusConfiguration())`."
+    },
+    {
+        "commit hash": "69e6d57d73c976c9be0030400467c726d3518a28",
+        "commit message": "added method to wait for running publications in tests"
+    },
+    {
+        "commit hash": "9eda5ba450cd11b595735f4cc186be57446de68e",
+        "commit message": "Converted System.out.println to LOG.info"
+    },
+    {
+        "commit hash": "02f18f8e4a120e05ab20cd1cc9a4f51d871394e3",
+        "commit message": "Added some convenience methods for those who don't want to use\nthe default configurations but don't want to have to start from scratch"
+    },
+    {
+        "commit hash": "d6aa291b8662849033a1d8ec0772babd6e3ef166",
+        "commit message": "fixed #35 #44 addressed #45, major refactorings, added documentation and tests"
+    },
+    {
+        "commit hash": "e4b6a84ab8d2487fe610d294535f3f593b2f819c",
+        "commit message": "Added custom names to identify MBassador dispatchers.\nAdded a null check on ExecutorService"
+    },
+    {
+        "commit hash": "65fcf85829a522f7d36cc7e3e9ee98b5b44ca8fc",
+        "commit message": "fixed #39"
+    },
+    {
+        "commit hash": "ca9f931d0d7925f2bbc37f11501f015e1a78d92f",
+        "commit message": "The latest Maven published version is 1.1.7"
+    },
+    {
+        "commit hash": "5915038acaea1d38e61b13257a56d86e196b21dc",
+        "commit message": "fixed #39"
+    },
+    {
+        "commit hash": "46cedcee46155f7394256becf0fc36a972337886",
+        "commit message": "fixed race condition in set iterators"
+    },
+    {
+        "commit hash": "7bfc426a678fa9523dba098f81d9d7d94e8f44de",
+        "commit message": "added logging in tests"
+    },
+    {
+        "commit hash": "1ecf5ebef807c0c3d0194a8630369b1f824a994b",
+        "commit message": "split message publication test, introduced message manager for easy synchronization of async messages"
+    },
+    {
+        "commit hash": "5c2fc81e7af7b18b2077a87e9d9abdb6916373ee",
+        "commit message": "fixed synchronization issue in test code"
+    },
+    {
+        "commit hash": "033d31d9144b14bb9a733514efa368723a33bb52",
+        "commit message": "Changed newline to use system independent newline"
+    },
+    {
+        "commit hash": "3a6814ac5c74a60ca662f9985f0f936d25521035",
+        "commit message": "update documentation"
+    },
+    {
+        "commit hash": "41309cca1c63026813ec8c4d53e594b252960660",
+        "commit message": "changed signature of message dispatcher"
+    },
+    {
+        "commit hash": "b25b9dae2cf1b7e0c9a1b5d83c5923d8542adf33",
+        "commit message": "prevent tests to run twice during build, removed redundant tests and unused objects"
+    },
+    {
+        "commit hash": "b7c580432619aa4de9e43c0990173325e786fb24",
+        "commit message": "release note 1.1.7"
+    },
+    {
+        "commit hash": "247a0686f087a91df024c08b332ff5f568b47e33",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "72c0f60a5061fa713a755304a4255bf82645fdfd",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.1.7"
+    },
+    {
+        "commit hash": "6100c657187dd654474fe2db2badab7876f919b7",
+        "commit message": "fixed #27 #29 #30 #31, higher test coverage, stabilized tests,"
+    },
+    {
+        "commit hash": "b50b25bf210861948025be47be5f9962bf8e6f8f",
+        "commit message": "stabilized test with GC issues"
+    },
+    {
+        "commit hash": "55d9ad8daf204d3b6fb8ed0761c3d5ef2f3d83d9",
+        "commit message": "fixed test, stable build"
+    },
+    {
+        "commit hash": "0a7ed2e651b04756ff210eacb68671d5cd0c2f2b",
+        "commit message": "subscription manager test improvements"
+    },
+    {
+        "commit hash": "a6462b4d174f124e05aef1b98f9c64494a1fd7bb",
+        "commit message": "subscription manager tests"
+    },
+    {
+        "commit hash": "1e445adb0450056511e1ee3cbd16fa9147d394be",
+        "commit message": "test for handlers of interfaces"
+    },
+    {
+        "commit hash": "7c08bd02993694b115474f63ba0b3f91f0beeaab",
+        "commit message": "better support of interfaces in message publication"
+    },
+    {
+        "commit hash": "8f30ea6c53f9f9f998860248857705ac567a318f",
+        "commit message": "1. Fixed bug #31, added a test case\n2. SyncBusTest didn't compile, I fixed the imports so that it did."
+    },
+    {
+        "commit hash": "2ecefc9b0413d5d02890d992faf43719ee058064",
+        "commit message": "Added interface PubSubSupport"
+    },
+    {
+        "commit hash": "17b1fee1b6b44612588e711aa0279c511c9d8d3a",
+        "commit message": "Added SubsciptionManager, fixed #30 and #31"
+    },
+    {
+        "commit hash": "bf0ce9535be084a1767095887351da9db358f680",
+        "commit message": "Added concrete SyncBus implementation"
+    },
+    {
+        "commit hash": "f5ecdefcd093e5aca4593e764d5378772b32509c",
+        "commit message": "Added concrete SyncBus implementation"
+    },
+    {
+        "commit hash": "c7922f5e7e147828f679183fda03f6932373fc5c",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "302d96f46b66b43fe49f8541747c1402fc944bf9",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.1.6"
+    },
+    {
+        "commit hash": "a9b25b65097a6405431ec045e58aae42e1585529",
+        "commit message": "Release 1.1.6"
+    },
+    {
+        "commit hash": "a6995018adc51b1f251b2c07d1e0a7b22ba6eab1",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.1.4"
+    },
+    {
+        "commit hash": "f79647884fae3a320e399c46fa564816d0812ea9",
+        "commit message": "Release 1.1.4"
+    },
+    {
+        "commit hash": "8da29f94cc2fcde87112139ee10af45ee387fb9d",
+        "commit message": "Release 1.2.0"
+    },
+    {
+        "commit hash": "a1a6324d4494c8652446d3f6d83f8db0d95e7080",
+        "commit message": "Release 1.1.4"
+    },
+    {
+        "commit hash": "1230bc7691bda89d62544370ed98333bff7f64bc",
+        "commit message": "Release 1.1.4"
+    },
+    {
+        "commit hash": "812eefae19074db5e660da7860b8fc2170b7adcf",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "e7c3dcfe568a3e2604622c7e95a9a131ea86c793",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.1.5"
+    },
+    {
+        "commit hash": "07dc4ebd57befe9e3005119b78a40a2ff3ae701a",
+        "commit message": "Release 1.1.4"
+    },
+    {
+        "commit hash": "6470735f11e79165bc4646902d6a983118e36962",
+        "commit message": "Release 1.1.4"
+    },
+    {
+        "commit hash": "41d298a4754651834958b9f8d1c0877085758bf3",
+        "commit message": "Release 1.1.4"
+    },
+    {
+        "commit hash": "7928f0a121c9c726b426612c1a1d974e08f7d7a9",
+        "commit message": "Release 1.1.4"
+    },
+    {
+        "commit hash": "39839f6aa619811b8f48740103dcca7f724e86d5",
+        "commit message": "Release 1.1.4"
+    },
+    {
+        "commit hash": "f65160d50295729cbdf0b89f69e8594468a5dcab",
+        "commit message": "Release 1.1.4"
+    },
+    {
+        "commit hash": "e1c8db1a1d3055575c197abb2431eb08f9c33b82",
+        "commit message": "Release 1.1.4"
+    },
+    {
+        "commit hash": "d68cb63cadc3bbf22ac9901d8c5d02e421bda660",
+        "commit message": "Release 1.1.4"
+    },
+    {
+        "commit hash": "8d1379c6aad49df7e87234d62b52a1a97daa9c0e",
+        "commit message": "Release 1.1.4"
+    },
+    {
+        "commit hash": "aecb1593eb76d3715644b59a32f94db8a103403f",
+        "commit message": "Release 1.1.4"
+    },
+    {
+        "commit hash": "913c38edba518b6269b7645f04bb2f498040f870",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "7e818b584e5febe71a33c1158dff13a8e4383bd6",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.1.4"
+    },
+    {
+        "commit hash": "12a3e778e99564b1c7031516a26786a9a96362db",
+        "commit message": "Release 1.1.4"
+    },
+    {
+        "commit hash": "8349aef7c8cd33f944c87c2bde961ea7663b0f10",
+        "commit message": "Added some codestyle-induced fixes."
+    },
+    {
+        "commit hash": "cb949a219ee69600d85639ee5bee1c70e6a22628",
+        "commit message": "Set an ignore comment on the failing testcase. Ran PMD on the code to clean up some unused modifiers."
+    },
+    {
+        "commit hash": "acc59eb8c324b94acad6251e026abd37b01b94b5",
+        "commit message": "added settings files to gitignore"
+    },
+    {
+        "commit hash": "54b3154ddc53e1511ec1bfc829f4bcccd35368f6",
+        "commit message": "unwrap the recursion when removing orphan references. this caused a stack overflow exception if a thew thousand references where empty"
+    },
+    {
+        "commit hash": "03d21a096f778f3f215722f843bbca690220dfaf",
+        "commit message": "Added idea folder to gitignore."
+    },
+    {
+        "commit hash": "295dfd3ec6ec552e9cf1e3559e1762e32d961023",
+        "commit message": "Made a trivial, non-invasive, OSGi addition to the parent pom"
+    },
+    {
+        "commit hash": "c74e3da2dd11d56da8fb84661d419d84197fcb9d",
+        "commit message": "Updated documentation"
+    },
+    {
+        "commit hash": "0b2de1cf304f99b72e47545d924402ec6cf99f3b",
+        "commit message": "Updated documentation"
+    },
+    {
+        "commit hash": "b419dd240bdada8f10d21d9eea45056a79920dbc",
+        "commit message": "Added FilteredMessage, interface optimization, refactorings"
+    },
+    {
+        "commit hash": "b4d401a970f79c2a1450dfd8846437d4daf594b5",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "f29ec01eb734c299806af307bb733ed0d80b42c5",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.1.3"
+    },
+    {
+        "commit hash": "818d3bcf19e054d68f1f1b20b0ab427d37032252",
+        "commit message": "Added FilteredMessage, interface optimization, refactorings"
+    },
+    {
+        "commit hash": "2425b34ab3327d8a82749fa5628bd565b1fbe8f6",
+        "commit message": "Added FilteredMessage, interface optimization, refactorings"
+    },
+    {
+        "commit hash": "62af3c7b22cbb9aeaabb53f058e2c42c21868297",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.1.2"
+    },
+    {
+        "commit hash": "b82632490bfb057ea06a36efca911f4f0ebde368",
+        "commit message": "Added FilteredMessage, interface optimization, refactorings"
+    },
+    {
+        "commit hash": "8fcce2f0eb005d7434735ea60303699a13b94cd1",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "0f62f53ebda03a1ccdea71b5a0de8ff3a30e8e14",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.1.2"
+    },
+    {
+        "commit hash": "e7a76287cb4e9019a2f977240b6d7aa16fea8fe9",
+        "commit message": "Added FilteredMessage, interface optimization, refactorings"
+    },
+    {
+        "commit hash": "eb50dbc96ec8f82cfdddd1a17f4106b62cbc3c53",
+        "commit message": "added FilteredEvent, interface optimization"
+    },
+    {
+        "commit hash": "676f729e08e67774aa7c9ab10b4264c5070e5403",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "49ee3cb84b0e0c62b4fdef450e98e92a3b077f75",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.1.1"
+    },
+    {
+        "commit hash": "08a88a3c617c901dd679a545eaa4c110d0bee2e8",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "fca9c6017cb8210a7dd216388bf66e7af3bfd45e",
+        "commit message": "added support for DeadEvent"
+    },
+    {
+        "commit hash": "d08470c339d317693d86b3efc356e16b1f16ad97",
+        "commit message": "Changed handler inheritance, added unit tests and docu"
+    },
+    {
+        "commit hash": "1ed1bb29a87d8faadbc919b64a585bc9cf3ee3c8",
+        "commit message": "Release to Maven Central"
+    },
+    {
+        "commit hash": "f2a61c16b8e533770ab0d6c7ca512c15b7a4ba85",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "c83d8702f0a553d06503fcb54efd34bef5c6c97c",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.1.0"
+    },
+    {
+        "commit hash": "32bed9afccc4701a8c97b650383ac432c9c476d1",
+        "commit message": "refactroring for release of 1.1.0"
+    },
+    {
+        "commit hash": "1c3444c2f0bbfc74e20b3a89e1f02d407f7eb17a",
+        "commit message": "prepare upload to maven central repository"
+    },
+    {
+        "commit hash": "7ca48b5966582b342029ee9b73a3704bbbfd3322",
+        "commit message": "prepare upload to maven central repository"
+    },
+    {
+        "commit hash": "95823abd9b3c6b0f1df822265886c753362145b1",
+        "commit message": "[maven-release-plugin] prepare for next development iteration"
+    },
+    {
+        "commit hash": "3c135faccd93eca3f463bc40b1f619f10e007a1a",
+        "commit message": "[maven-release-plugin] prepare release mbassador-1.0.7"
+    },
+    {
+        "commit hash": "81a1d3fa9b276f7154395b8f106a79a34e4d01d2",
+        "commit message": "prepare upload to maven central repository"
+    },
+    {
+        "commit hash": "9ab78422e4e692177d01ecd7495a3fdd0dd85ffb",
+        "commit message": "prepare upload to maven central repository"
+    },
+    {
+        "commit hash": "b798f77b874e31e23e0c34227eb3c1b0b79f7c53",
+        "commit message": "prepare upload to maven central repository"
+    },
+    {
+        "commit hash": "adc43a37453003567fdac40c19d9123069922f63",
+        "commit message": "release of 1.0.6.RC, fixed #14 and #11"
+    },
+    {
+        "commit hash": "acd19169afcab3332c446384f5ab2874b126daf2",
+        "commit message": "release of 1.0.6.RC, fixed #14 and #11"
+    },
+    {
+        "commit hash": "39ab0d61efad48fa65646a4aa829e70ed7e5b2f7",
+        "commit message": "release of 1.0.6.RC, fixed #14 and #11"
+    },
+    {
+        "commit hash": "a4f15c45645a5336add131b335948e2f8c1eee4e",
+        "commit message": "fix in metadata reader"
+    },
+    {
+        "commit hash": "4d617a2f854d8f6fa7aa3784d97858b43978d00a",
+        "commit message": "Organized imports to reduce number of warnings in some IDEs/CodeCheckers: removed unused, replaced several * imports with exact"
+    },
+    {
+        "commit hash": "87557a1a0d69fd2720fbf410540c38491ff0b69a",
+        "commit message": "Removed unused import\n\nRemoved\nimport com.sun.xml.internal.messaging.saaj.soap.Envelope\nfrom the org.mbassy.listener.MetadataReader."
+    },
+    {
+        "commit hash": "11c337d512297085fc8baef3d06d3adbdb36ceb5",
+        "commit message": "Update src/main/java/org/mbassy/SyncAsyncPostCommand.java\n\nRemoving \"unchecked call\" warnings."
+    },
+    {
+        "commit hash": "9eacace23039d93416bfd0bce8417447fa5d2fed",
+        "commit message": "Update src/main/java/org/mbassy/MBassador.java\n\nRemoving \"unchecked call\" warnings."
+    },
+    {
+        "commit hash": "c8b60ef8545a8023734ec4461f2890e0fd27e7f0",
+        "commit message": "release of 1.0.5.RC"
+    },
+    {
+        "commit hash": "687fbb72ed2f716332e4ff08229b8566e31d4f91",
+        "commit message": "release of 1.0.5.RC"
+    },
+    {
+        "commit hash": "95c5d8e535d0dc0c36438defd45f9917f124f713",
+        "commit message": "release of 1.0.4.RC, fixed #8"
+    },
+    {
+        "commit hash": "ffb5d01b70c5999379f53f150cf056423c30a089",
+        "commit message": "release 1.0.3.RC"
+    },
+    {
+        "commit hash": "634e257dd5a3f7943dd47c703a04d701cba1be71",
+        "commit message": "introduced configuration object"
+    },
+    {
+        "commit hash": "0d6348adaee59b31dd00eb7521a9efab0b42ee95",
+        "commit message": "introduced configuration object, small performance tweaks, more tests"
+    },
+    {
+        "commit hash": "21385b605ed17f0de1b9e2c845b6128ceeae81ca",
+        "commit message": "introduced configuration object, small performance tweaks, more tests"
+    },
+    {
+        "commit hash": "31e6ca18bbd0d52b77f35317b5f89b2a72e7615a",
+        "commit message": "new release 1.0.2.RC"
+    },
+    {
+        "commit hash": "a47b63288097d5c34a6819769acebe1cff15587b",
+        "commit message": "fixed issue #5, added gradle build config"
+    },
+    {
+        "commit hash": "89f44544bd9d68c94c5fc84dcef167cb33b25df5",
+        "commit message": "refactorings, code optimizations, tests"
+    },
+    {
+        "commit hash": "2718a4afb2535679b63f212b8e65f17b3f22c04f",
+        "commit message": "fixed documentation"
+    },
+    {
+        "commit hash": "bb4997d4989503d58d25f183dcdfb8b41fea8e8c",
+        "commit message": "added version 1.0.1.RC to maven repo"
+    },
+    {
+        "commit hash": "989ed67285d81de444ebc40630c5ccb78125c7ed",
+        "commit message": "bugfix issue #3, added more test cases"
+    },
+    {
+        "commit hash": "271a445a97ae4773086e17612eadbd1fc90446c2",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "15fe30711ecb6094ebd8dd4be6b69b43292d9bd4",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "9969f2b160dd51e15d83ecadf3713409cae45015",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "77fe2c7f296ef1dfc864eed92156ea29343d0cdd",
+        "commit message": "update documentation"
+    },
+    {
+        "commit hash": "67b03aa9566612a89259c21a2ef3f0808feea6a9",
+        "commit message": "update documentation"
+    },
+    {
+        "commit hash": "20ce38440bf6ad12b81f047593edcbe06fd78e08",
+        "commit message": "update documentation"
+    },
+    {
+        "commit hash": "82fb04e90a5f5839e711cc432c8aa9b57e7ff1c7",
+        "commit message": "update documentation"
+    },
+    {
+        "commit hash": "71bdeda364ece356698067308d8fa9cd24229964",
+        "commit message": "update documentation"
+    },
+    {
+        "commit hash": "2a19fd75b2e83176a829c2a532028a4adb001c8d",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "b11ad6e600d5262e0c78f524062748acc50731cb",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "b223a1b8b91a03deab1dad8aae9c209e9232f455",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "5d2be4a7db318523b7c7ebf604a5ee00d851288c",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "a339f96cb7b7b64127b213ea443fc64d23807dc6",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "b683a6336a1e2e8482209db98c8f3b3517e9d925",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "5510d515a7105853c6346c909a47f60a39f8f034",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "438e378dd87b966665be1f10bfd5e171974141b8",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "aa4edc04101ae77361fb9ea3d7aa0d7b973c8f39",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "899125ee0933c3c816ca9cb98beab871b179da39",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "5b91a2d976915a0437913c0c5bcfe0d60024c722",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "b3fa0642173516c5d7add7d929ab6351735ff46b",
+        "commit message": "repackaged error handler"
+    },
+    {
+        "commit hash": "201518d9f4e8943646bbf598afd0f64e2b1dfc02",
+        "commit message": "maven repository update"
+    },
+    {
+        "commit hash": "b66eeb59a6d3085fc48bc27fd8872b84b09e49ae",
+        "commit message": "removed unnecessary dependencies"
+    },
+    {
+        "commit hash": "49acafb88bf30a17ee15b2e8c105f02799e5a5f1",
+        "commit message": "mavenized"
+    },
+    {
+        "commit hash": "da0e4dc551edf17fb6d2256c705c857ca6d5a451",
+        "commit message": "mavenized"
+    },
+    {
+        "commit hash": "04745a3fbc7d01be05695880461356dadf7d7422",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "bc1e3a636e2d890e8af31da57de445109f53593d",
+        "commit message": "updated documentation"
+    },
+    {
+        "commit hash": "9ce3ceb6f4f13ff016ee6c7e24ca6a38eb1c189f",
+        "commit message": "refactorings. abstract base class. repackaging"
+    },
+    {
+        "commit hash": "2ae0e5fae09cb0cf4127a5528b21de0e7b2cf60d",
+        "commit message": "introduced specialized subscriptions for better performance and customization options"
+    },
+    {
+        "commit hash": "014f22df9ea53c61111fa935eb108ad3103eae72",
+        "commit message": "introduced specialized subscriptions for better performance and customization options"
+    },
+    {
+        "commit hash": "08f6e45c7cef622395da6e03832aaa66f48a21e3",
+        "commit message": "removed dependency to apache commons"
+    },
+    {
+        "commit hash": "611718c4ec38e4b5531f9d9c79a301592aad393b",
+        "commit message": "Extended feature roadmap"
+    },
+    {
+        "commit hash": "6aadcbe036b535732ef54f49cebc6498eb3f2d62",
+        "commit message": "Bugfix of synchronization issue (race condition when inserting the same object concurrently)\nExtension of publishing api for more convenient usage\nAdded some tests for the underlying data structures"
+    },
+    {
+        "commit hash": "3f7b80bdebfc8aad7e70f9bb1544aafc1449f156",
+        "commit message": "added license"
+    },
+    {
+        "commit hash": "1f4f087d7e3509708f5756566619375f5ecc67f1",
+        "commit message": "styling"
+    },
+    {
+        "commit hash": "9b1c586398bd85f1a36692d4ec2186a3ae82ac03",
+        "commit message": "documentation..."
+    },
+    {
+        "commit hash": "6a52f2dadf7f5f11878c23c9bf4b263e49a1186c",
+        "commit message": "documentation..."
+    },
+    {
+        "commit hash": "b0aed604b451f234232c8d452ddb20dd754cb230",
+        "commit message": "corrected sampe code in documentation"
+    },
+    {
+        "commit hash": "a6b436beb62b52854afd43e7efff9143b8751f39",
+        "commit message": "corrected sampe code in documentation"
+    },
+    {
+        "commit hash": "d2a6395d4858da07e9093a0f9a62e543e37c4b3f",
+        "commit message": "added sampe code in documentation"
+    },
+    {
+        "commit hash": "4ce801c08642d8b347aafdc4abbe627a90740931",
+        "commit message": "added sampe code in documentation"
+    },
+    {
+        "commit hash": "db5803eb033a3cc35ec200d19c0e438ffcc03e2a",
+        "commit message": "added sampe code in documentation"
+    },
+    {
+        "commit hash": "279c9b6a7a7fd4098a89099b55aef5c02ec24677",
+        "commit message": "added sampe code in documentation"
+    },
+    {
+        "commit hash": "591e107f4e379dba9117505eccba1a0aa3efb339",
+        "commit message": "added sampe code in documentation"
+    },
+    {
+        "commit hash": "dbbeabebc96cc349f980a5f4f02b34189779b163",
+        "commit message": "fixed broken dependency in pom"
+    },
+    {
+        "commit hash": "d316b4c5ae24011b48d6e8865e53ae5e6ab03dd9",
+        "commit message": "initial project setup"
+    },
+    {
+        "commit hash": "0d3228455641804df4b0c05858ec3a4272df452c",
+        "commit message": "initial project setup"
+    },
+    {
+        "commit hash": "cd4dd13555917505ede1f0e7966bea2843a5d8af",
+        "commit message": "initial project setup"
+    },
+    {
+        "commit hash": "c971e736a05dacd1a61983d7fb0cc8e8bf8468d7",
+        "commit message": "initial project setup"
+    },
+    {
+        "commit hash": "924fb5e93b575bdeb55f1f5c9ae6245ff5844776",
+        "commit message": "initial project setup"
+    },
+    {
+        "commit hash": "ddfd9595b119dbeca15b2daddb7643e0ff9f42b1",
+        "commit message": "initial project setup"
+    },
+    {
+        "commit hash": "f6d01fdbd026f7db8b07b4bad7b9c61cd30a7224",
+        "commit message": "initial project setup"
+    },
+    {
+        "commit hash": "bf84dfceac990b1f2c15d70b69616366d5f36385",
+        "commit message": "initial project setup"
+    },
+    {
+        "commit hash": "8c4d515c2131f37f05e4c51028a71d0c73acc6a9",
+        "commit message": "initial project setup"
+    }
+]

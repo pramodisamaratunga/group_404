@@ -1,0 +1,789 @@
+{
+"commits": [
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "50a49547721ea51951441d8474ce08ae252b2a4b",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/50a49547721ea51951441d8474ce08ae252b2a4b",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "04807ecd2a7b63da8ef72cf5f50d629842554953",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/04807ecd2a7b63da8ef72cf5f50d629842554953",
+	"refactorings": [{
+	"type": "Add Class Annotation",
+	"description": "Add Class Annotation @NamedQuery(name = \"Bill.getBillByUserName\", query = \"select b from Bill b where b.createdBy =: username order by b.id desc\") in class com.cafe.model.Bill",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/Bill.java",
+		"startLine": 10,
+		"endLine": 48,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.model.Bill"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/Bill.java",
+		"startLine": 10,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 127,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@NamedQuery(name = \"Bill.getBillByUserName\", query = \"select b from Bill b where b.createdBy =: username order by b.id desc\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/Bill.java",
+		"startLine": 10,
+		"endLine": 52,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with added annotation",
+		"codeElement": "com.cafe.model.Bill"
+}]
+},
+{
+	"type": "Add Class Annotation",
+	"description": "Add Class Annotation @NamedQuery(name = \"Bill.getAllBills\", query = \"select b from Bill b order by b.id desc\") in class com.cafe.model.Bill",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/Bill.java",
+		"startLine": 10,
+		"endLine": 48,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.model.Bill"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/Bill.java",
+		"startLine": 12,
+		"endLine": 12,
+		"startColumn": 0,
+		"endColumn": 91,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@NamedQuery(name = \"Bill.getAllBills\", query = \"select b from Bill b order by b.id desc\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/Bill.java",
+		"startLine": 10,
+		"endLine": 52,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with added annotation",
+		"codeElement": "com.cafe.model.Bill"
+}]
+}
+]
+},
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "f148ad858865b14c59482696187d26d2781d9948",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/f148ad858865b14c59482696187d26d2781d9948",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "eb75aae9a53eca135630b2b2f7550c4af5a4431c",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/eb75aae9a53eca135630b2b2f7550c4af5a4431c",
+	"refactorings": [{
+	"type": "Modify Class Annotation",
+	"description": "Modify Class Annotation @NamedQuery(name = \"Product.getAllProduct\", query = \"select new com.cafe.wrapper.ProductWrapper(p.id,p.name,p.description,p.price,p.status,p.category.id,p.category.name) from Product p\") to @NamedQuery(name = \"Product.getAllProduct\", query = \"select new com.cafe.wrapper.ProductWrapper\" + \"(p.id,p.name,p.description,p.price,p.status,p.category.id,p.category.name) from Product p\") in class com.cafe.model.Product",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 9,
+		"endLine": 9,
+		"startColumn": 0,
+		"endColumn": 188,
+		"codeElementType": "ANNOTATION",
+		"description": "original annotation",
+		"codeElement": "@NamedQuery(name = \"Product.getAllProduct\", query = \"select new com.cafe.wrapper.ProductWrapper(p.id,p.name,p.description,p.price,p.status,p.category.id,p.category.name) from Product p\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 9,
+		"endLine": 41,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.model.Product"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 9,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 101,
+		"codeElementType": "ANNOTATION",
+		"description": "modified annotation",
+		"codeElement": "@NamedQuery(name = \"Product.getAllProduct\", query = \"select new com.cafe.wrapper.ProductWrapper\" + \"(p.id,p.name,p.description,p.price,p.status,p.category.id,p.category.name) from Product p\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 9,
+		"endLine": 52,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with modified annotation",
+		"codeElement": "com.cafe.model.Product"
+}]
+},
+{
+	"type": "Modify Class Annotation",
+	"description": "Modify Class Annotation @NamedQuery(name = \"Product.getAllProduct\", query = \"select new com.cafe.wrapper.ProductWrapper(p.id,p.name,p.description,p.price,p.status,p.category.id,p.category.name) from Product p\") to @NamedQuery(name = \"Product.updateProductStatus\", query = \"update Product p set p.status =: status where p.id = :id\") in class com.cafe.model.Product",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 9,
+		"endLine": 9,
+		"startColumn": 0,
+		"endColumn": 188,
+		"codeElementType": "ANNOTATION",
+		"description": "original annotation",
+		"codeElement": "@NamedQuery(name = \"Product.getAllProduct\", query = \"select new com.cafe.wrapper.ProductWrapper(p.id,p.name,p.description,p.price,p.status,p.category.id,p.category.name) from Product p\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 9,
+		"endLine": 41,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.model.Product"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 12,
+		"endLine": 12,
+		"startColumn": 0,
+		"endColumn": 119,
+		"codeElementType": "ANNOTATION",
+		"description": "modified annotation",
+		"codeElement": "@NamedQuery(name = \"Product.updateProductStatus\", query = \"update Product p set p.status =: status where p.id = :id\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 9,
+		"endLine": 52,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with modified annotation",
+		"codeElement": "com.cafe.model.Product"
+}]
+},
+{
+	"type": "Modify Class Annotation",
+	"description": "Modify Class Annotation @NamedQuery(name = \"Product.getAllProduct\", query = \"select new com.cafe.wrapper.ProductWrapper(p.id,p.name,p.description,p.price,p.status,p.category.id,p.category.name) from Product p\") to @NamedQuery(name = \"Product.getProductByCategory\", query = \"select new com.cafe.wrapper.ProductWrapper\" + \"(p.id,p.name,p.description,p.price,p.status,p.category.id,p.category.name) \" + \"from Product p where p.category.id=:id and p.status='true'\") in class com.cafe.model.Product",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 9,
+		"endLine": 9,
+		"startColumn": 0,
+		"endColumn": 188,
+		"codeElementType": "ANNOTATION",
+		"description": "original annotation",
+		"codeElement": "@NamedQuery(name = \"Product.getAllProduct\", query = \"select new com.cafe.wrapper.ProductWrapper(p.id,p.name,p.description,p.price,p.status,p.category.id,p.category.name) from Product p\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 9,
+		"endLine": 41,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.model.Product"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 14,
+		"endLine": 16,
+		"startColumn": 0,
+		"endColumn": 70,
+		"codeElementType": "ANNOTATION",
+		"description": "modified annotation",
+		"codeElement": "@NamedQuery(name = \"Product.getProductByCategory\", query = \"select new com.cafe.wrapper.ProductWrapper\" + \"(p.id,p.name,p.description,p.price,p.status,p.category.id,p.category.name) \" + \"from Product p where p.category.id=:id and p.status='true'\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 9,
+		"endLine": 52,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with modified annotation",
+		"codeElement": "com.cafe.model.Product"
+}]
+},
+{
+	"type": "Modify Class Annotation",
+	"description": "Modify Class Annotation @NamedQuery(name = \"Product.getAllProduct\", query = \"select new com.cafe.wrapper.ProductWrapper(p.id,p.name,p.description,p.price,p.status,p.category.id,p.category.name) from Product p\") to @NamedQuery(name = \"Product.getProductById\", query = \"select new com.cafe.wrapper.ProductWrapper\" + \"(p.id,p.name,p.description,p.price) \" + \"from Product p where p.id=:id\") in class com.cafe.model.Product",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 9,
+		"endLine": 9,
+		"startColumn": 0,
+		"endColumn": 188,
+		"codeElementType": "ANNOTATION",
+		"description": "original annotation",
+		"codeElement": "@NamedQuery(name = \"Product.getAllProduct\", query = \"select new com.cafe.wrapper.ProductWrapper(p.id,p.name,p.description,p.price,p.status,p.category.id,p.category.name) from Product p\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 9,
+		"endLine": 41,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.model.Product"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 18,
+		"endLine": 20,
+		"startColumn": 0,
+		"endColumn": 41,
+		"codeElementType": "ANNOTATION",
+		"description": "modified annotation",
+		"codeElement": "@NamedQuery(name = \"Product.getProductById\", query = \"select new com.cafe.wrapper.ProductWrapper\" + \"(p.id,p.name,p.description,p.price) \" + \"from Product p where p.id=:id\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/Product.java",
+		"startLine": 9,
+		"endLine": 52,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with modified annotation",
+		"codeElement": "com.cafe.model.Product"
+}]
+}
+]
+},
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "610d7e62a3edc48e6aca96a6dbd450082644eca4",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/610d7e62a3edc48e6aca96a6dbd450082644eca4",
+	"refactorings": [{
+	"type": "Modify Class Annotation",
+	"description": "Modify Class Annotation @NamedQuery(name = \"Category.getAllCategory\", query = \"select c from Category c\") to @NamedQuery(name = \"Category.getAllCategory\", query = \"select c from Category c where c.id in \" + \"(select p.category.id from Product p where p.status='true')\") in class com.cafe.model.Category",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/Category.java",
+		"startLine": 10,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 83,
+		"codeElementType": "ANNOTATION",
+		"description": "original annotation",
+		"codeElement": "@NamedQuery(name = \"Category.getAllCategory\", query = \"select c from Category c\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/Category.java",
+		"startLine": 10,
+		"endLine": 29,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.model.Category"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/Category.java",
+		"startLine": 10,
+		"endLine": 11,
+		"startColumn": 0,
+		"endColumn": 71,
+		"codeElementType": "ANNOTATION",
+		"description": "modified annotation",
+		"codeElement": "@NamedQuery(name = \"Category.getAllCategory\", query = \"select c from Category c where c.id in \" + \"(select p.category.id from Product p where p.status='true')\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/Category.java",
+		"startLine": 10,
+		"endLine": 31,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with modified annotation",
+		"codeElement": "com.cafe.model.Category"
+}]
+}
+]
+},
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "2b9a3146e0f5706441155cb75d274d510dded554",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/2b9a3146e0f5706441155cb75d274d510dded554",
+	"refactorings": [{
+	"type": "Add Class Annotation",
+	"description": "Add Class Annotation @Slf4j in class com.cafe.serviceImpl.CategoryServiceImpl",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/serviceImpl/CategoryServiceImpl.java",
+		"startLine": 16,
+		"endLine": 62,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.serviceImpl.CategoryServiceImpl"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/serviceImpl/CategoryServiceImpl.java",
+		"startLine": 21,
+		"endLine": 21,
+		"startColumn": 0,
+		"endColumn": 7,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@Slf4j"
+}, {
+		"filePath": "src/main/java/com/cafe/serviceImpl/CategoryServiceImpl.java",
+		"startLine": 21,
+		"endLine": 107,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with added annotation",
+		"codeElement": "com.cafe.serviceImpl.CategoryServiceImpl"
+}]
+}
+]
+},
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "c84cca81232ed1944974cfbf35ffe604737b112a",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/c84cca81232ed1944974cfbf35ffe604737b112a",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "f8304f0fa09f3d298a750201fb5d9f430bc165c0",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/f8304f0fa09f3d298a750201fb5d9f430bc165c0",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "6c5b64ab06fd81c2b79409c2eed612ffa8a9538a",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/6c5b64ab06fd81c2b79409c2eed612ffa8a9538a",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "8960e177dee399914869a137601dd9274d05ae0e",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/8960e177dee399914869a137601dd9274d05ae0e",
+	"refactorings": [{
+	"type": "Encapsulate Attribute",
+	"description": "Encapsulate Attribute private userDetail : User from class com.cafe.JWT.CustomerUserDetailsService",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/JWT/CustomerUserDetailsService.java",
+		"startLine": 22,
+		"endLine": 22,
+		"startColumn": 33,
+		"endColumn": 43,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private userDetail : User"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/JWT/CustomerUserDetailsService.java",
+		"startLine": 22,
+		"endLine": 22,
+		"startColumn": 33,
+		"endColumn": 43,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "encapsulated attribute declaration",
+		"codeElement": "private userDetail : User"
+}, {
+		"filePath": "src/main/java/com/cafe/JWT/CustomerUserDetailsService.java",
+		"startLine": 36,
+		"endLine": 38,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "added getter method",
+		"codeElement": "public getUserDetail() : User"
+}]
+},
+{
+	"type": "Modify Class Annotation",
+	"description": "Modify Class Annotation @NamedQuery(name = \"User.findByEmailId\", query = \"select u from User u where u.email=:email\") to @NamedQuery(name = \"User.getAllUser\", query = \"select new com.cafe.wrapper.UserWrapper(u.id,u.name,u.email,u.contactNumber,u.status) from User u where u.role='user'\") in class com.cafe.model.User",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/User.java",
+		"startLine": 10,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 95,
+		"codeElementType": "ANNOTATION",
+		"description": "original annotation",
+		"codeElement": "@NamedQuery(name = \"User.findByEmailId\", query = \"select u from User u where u.email=:email\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/User.java",
+		"startLine": 10,
+		"endLine": 44,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.model.User"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/User.java",
+		"startLine": 12,
+		"endLine": 12,
+		"startColumn": 0,
+		"endColumn": 168,
+		"codeElementType": "ANNOTATION",
+		"description": "modified annotation",
+		"codeElement": "@NamedQuery(name = \"User.getAllUser\", query = \"select new com.cafe.wrapper.UserWrapper(u.id,u.name,u.email,u.contactNumber,u.status) from User u where u.role='user'\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/User.java",
+		"startLine": 10,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with modified annotation",
+		"codeElement": "com.cafe.model.User"
+}]
+},
+{
+	"type": "Modify Class Annotation",
+	"description": "Modify Class Annotation @NamedQuery(name = \"User.findByEmailId\", query = \"select u from User u where u.email=:email\") to @NamedQuery(name = \"User.updateStatus\", query = \"update User u set u.status=:status where u.id=:id\") in class com.cafe.model.User",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/User.java",
+		"startLine": 10,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 95,
+		"codeElementType": "ANNOTATION",
+		"description": "original annotation",
+		"codeElement": "@NamedQuery(name = \"User.findByEmailId\", query = \"select u from User u where u.email=:email\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/User.java",
+		"startLine": 10,
+		"endLine": 44,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.model.User"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/User.java",
+		"startLine": 14,
+		"endLine": 14,
+		"startColumn": 0,
+		"endColumn": 102,
+		"codeElementType": "ANNOTATION",
+		"description": "modified annotation",
+		"codeElement": "@NamedQuery(name = \"User.updateStatus\", query = \"update User u set u.status=:status where u.id=:id\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/User.java",
+		"startLine": 10,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with modified annotation",
+		"codeElement": "com.cafe.model.User"
+}]
+},
+{
+	"type": "Modify Class Annotation",
+	"description": "Modify Class Annotation @NamedQuery(name = \"User.findByEmailId\", query = \"select u from User u where u.email=:email\") to @NamedQuery(name = \"User.getAllAdmin\", query = \"select u.email from User u where u.role='admin'\") in class com.cafe.model.User",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/User.java",
+		"startLine": 10,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 95,
+		"codeElementType": "ANNOTATION",
+		"description": "original annotation",
+		"codeElement": "@NamedQuery(name = \"User.findByEmailId\", query = \"select u from User u where u.email=:email\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/User.java",
+		"startLine": 10,
+		"endLine": 44,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.model.User"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/User.java",
+		"startLine": 16,
+		"endLine": 16,
+		"startColumn": 0,
+		"endColumn": 99,
+		"codeElementType": "ANNOTATION",
+		"description": "modified annotation",
+		"codeElement": "@NamedQuery(name = \"User.getAllAdmin\", query = \"select u.email from User u where u.role='admin'\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/User.java",
+		"startLine": 10,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with modified annotation",
+		"codeElement": "com.cafe.model.User"
+}]
+}
+]
+},
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "f9da638b41deee233f917bae29e0e5f6b9f2deae",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/f9da638b41deee233f917bae29e0e5f6b9f2deae",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "a73ce104022c11c4ad5da7df9fc142bed80d6495",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/a73ce104022c11c4ad5da7df9fc142bed80d6495",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "4d994ab149f41224047d47465960a6c912618740",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/4d994ab149f41224047d47465960a6c912618740",
+	"refactorings": [{
+	"type": "Add Class Annotation",
+	"description": "Add Class Annotation @NamedQuery(name = \"User.findByEmailId\", query = \"select u from User u where u.email=:email\") in class com.cafe.model.User",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/User.java",
+		"startLine": 10,
+		"endLine": 42,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.model.User"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/model/User.java",
+		"startLine": 10,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 95,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@NamedQuery(name = \"User.findByEmailId\", query = \"select u from User u where u.email=:email\")"
+}, {
+		"filePath": "src/main/java/com/cafe/model/User.java",
+		"startLine": 10,
+		"endLine": 44,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with added annotation",
+		"codeElement": "com.cafe.model.User"
+}]
+},
+{
+	"type": "Add Class Annotation",
+	"description": "Add Class Annotation @RequestMapping(path = \"/user\") in class com.cafe.rest.UserRest",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/rest/UserRest.java",
+		"startLine": 3,
+		"endLine": 4,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.rest.UserRest"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/rest/UserRest.java",
+		"startLine": 10,
+		"endLine": 10,
+		"startColumn": 0,
+		"endColumn": 32,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@RequestMapping(path = \"/user\")"
+}, {
+		"filePath": "src/main/java/com/cafe/rest/UserRest.java",
+		"startLine": 10,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with added annotation",
+		"codeElement": "com.cafe.rest.UserRest"
+}]
+},
+{
+	"type": "Add Class Annotation",
+	"description": "Add Class Annotation @RestController in class com.cafe.restImpl.UserRestImpl",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/restImpl/UserRestImpl.java",
+		"startLine": 5,
+		"endLine": 6,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.restImpl.UserRestImpl"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/restImpl/UserRestImpl.java",
+		"startLine": 14,
+		"endLine": 14,
+		"startColumn": 0,
+		"endColumn": 16,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@RestController"
+}, {
+		"filePath": "src/main/java/com/cafe/restImpl/UserRestImpl.java",
+		"startLine": 14,
+		"endLine": 31,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with added annotation",
+		"codeElement": "com.cafe.restImpl.UserRestImpl"
+}]
+},
+{
+	"type": "Add Class Annotation",
+	"description": "Add Class Annotation @Slf4j in class com.cafe.serviceImpl.UserServiceImpl",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/serviceImpl/UserServiceImpl.java",
+		"startLine": 5,
+		"endLine": 6,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.serviceImpl.UserServiceImpl"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/serviceImpl/UserServiceImpl.java",
+		"startLine": 17,
+		"endLine": 17,
+		"startColumn": 0,
+		"endColumn": 7,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@Slf4j"
+}, {
+		"filePath": "src/main/java/com/cafe/serviceImpl/UserServiceImpl.java",
+		"startLine": 17,
+		"endLine": 70,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with added annotation",
+		"codeElement": "com.cafe.serviceImpl.UserServiceImpl"
+}]
+},
+{
+	"type": "Add Class Annotation",
+	"description": "Add Class Annotation @Service in class com.cafe.serviceImpl.UserServiceImpl",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/serviceImpl/UserServiceImpl.java",
+		"startLine": 5,
+		"endLine": 6,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.serviceImpl.UserServiceImpl"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/serviceImpl/UserServiceImpl.java",
+		"startLine": 18,
+		"endLine": 18,
+		"startColumn": 0,
+		"endColumn": 9,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@Service"
+}, {
+		"filePath": "src/main/java/com/cafe/serviceImpl/UserServiceImpl.java",
+		"startLine": 17,
+		"endLine": 70,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with added annotation",
+		"codeElement": "com.cafe.serviceImpl.UserServiceImpl"
+}]
+},
+{
+	"type": "Add Class Annotation",
+	"description": "Add Class Annotation @RestController in class com.cafe.utils.CafeUtils",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/utils/CafeUtils.java",
+		"startLine": 3,
+		"endLine": 4,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original class declaration",
+		"codeElement": "com.cafe.utils.CafeUtils"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/utils/CafeUtils.java",
+		"startLine": 7,
+		"endLine": 7,
+		"startColumn": 0,
+		"endColumn": 16,
+		"codeElementType": "ANNOTATION",
+		"description": "added annotation",
+		"codeElement": "@RestController"
+}, {
+		"filePath": "src/main/java/com/cafe/utils/CafeUtils.java",
+		"startLine": 7,
+		"endLine": 19,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "class declaration with added annotation",
+		"codeElement": "com.cafe.utils.CafeUtils"
+}]
+}
+]
+},
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "63e99518b2474e76b9db4ea8fc57846abf24c4f6",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/63e99518b2474e76b9db4ea8fc57846abf24c4f6",
+	"refactorings": [{
+	"type": "Rename Class",
+	"description": "Rename Class com.cafe.CafeManagemenetSystemApplication renamed to com.cafe.CafeManagementSystemApplication",
+	"leftSideLocations": [{
+		"filePath": "src/main/java/com/cafe/CafeManagemenetSystemApplication.java",
+		"startLine": 6,
+		"endLine": 15,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.cafe.CafeManagemenetSystemApplication"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/main/java/com/cafe/CafeManagementSystemApplication.java",
+		"startLine": 6,
+		"endLine": 12,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "renamed type declaration",
+		"codeElement": "com.cafe.CafeManagementSystemApplication"
+}]
+}
+]
+},
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "3be87a9e5b63f7fed9e1f627516f618b228854d9",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/3be87a9e5b63f7fed9e1f627516f618b228854d9",
+	"refactorings": []
+},
+{
+	"repository": "https://github.com/Edirimanna/restrurent_management_system.git",
+	"sha1": "adca3f68ef832867df3191397abba0d9208d0c8e",
+	"url": "https://github.com/Edirimanna/restrurent_management_system/commit/adca3f68ef832867df3191397abba0d9208d0c8e",
+	"refactorings": []
+}]
+}
